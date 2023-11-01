@@ -21,12 +21,13 @@ const replacewithSigleTable = (block) => {
 
 export default function createAccordionBlocks(block, document) {
   const accordions = block.querySelectorAll('.accordion');
+  const bgColor = block.querySelector('div[data-bgcolor]')?.getAttribute('data-bgcolor');
 
   const title = block.querySelector('.title h2');
 
   if (title) {
-    const titleCells = [['text(full-width)']];
-    titleCells.push([title.textContent]);
+    const titleCells = [['text(full-width, no-spacing-top)']];
+    titleCells.push([title.cloneNode(true)]);
     const titleTable = WebImporter.DOMUtils.createTable(
       titleCells,
       document,
@@ -61,6 +62,17 @@ export default function createAccordionBlocks(block, document) {
     accBlockTable.classList.add('import-table', 'accordion-table');
     accordion.replaceWith(accBlockTable);
   });
+
+  if(bgColor){
+    const sectionMetadataCells = [['Section Metadata'], ['background', bgColor], ['style', 'xl-spacing']];
+    const sectionMetaDataTable = WebImporter.DOMUtils.createTable(
+      sectionMetadataCells,
+      document,
+    );
+    sectionMetaDataTable.classList.add('import-table');
+    block.after(sectionMetaDataTable);
+  }
+
   block.before(document.createElement('hr'));
   block.replaceWith(...replacewithSigleTable(block));
 }

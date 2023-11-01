@@ -2,8 +2,8 @@
 
 export const createIconBlockFragment = (block, document) => {
   const iconBlock = document.createElement('a');
-  iconBlock.href = 'https://main--dc--adobecom.hlx.page/dc-shared/fragments/seo-articles/acrobat-color-blade';
-  iconBlock.textContent = 'https://main--dc--adobecom.hlx.page/dc-shared/fragments/seo-articles/acrobat-color-blade';
+  iconBlock.href = 'https://main--dc--adobecom.hlx.page/dc-shared/fragments/resources/want-to-know-more';
+  iconBlock.textContent = 'https://main--dc--adobecom.hlx.page/dc-shared/fragments/resources/want-to-know-more';
 
   block.before(document.createElement('hr'));
   block.replaceWith(iconBlock);
@@ -37,10 +37,10 @@ const creativityForAllIconBlock = (block, document) => {
     btnWrapper.appendChild(spectrumButton.cloneNode(true));
     spectrumButton.replaceWith(btnWrapper);
   }
-  const cells = [['icon-block (fullwidth, large)'], [block.cloneNode(true)]];
+  const cells = [['icon-block (fullwidth, medium, xl-spacing)'], [block.cloneNode(true)]];
   const table = WebImporter.DOMUtils.createTable(cells, document);
   table.classList.add('import-table');
-  block.before(document.createElement('hr'));
+  block.after(document.createElement('hr'));
   const sectionMetadataCells = [
     ['Section Metadata'],
     ['style', 'xxxl spacing, center'],
@@ -54,7 +54,7 @@ const creativityForAllIconBlock = (block, document) => {
     document,
   );
   sectionMetaDataTable.classList.add('import-table');
-  block.replaceWith(table, sectionMetaDataTable);
+  block.replaceWith(table);
 };
 
 const expressIconBlock = (block, document) => {
@@ -67,6 +67,7 @@ const expressIconBlock = (block, document) => {
 
   // find image
   const imageElement = textImageMetaData.querySelector('.image img');
+  // const imageElement = textImageMetaData.querySelector('img');
   let imageSrc = imageElement?.getAttribute('src');
   if (imageSrc && imageSrc.indexOf('https') === -1) {
     imageSrc = `https://www.adobe.com${imageSrc}`;
@@ -76,26 +77,32 @@ const expressIconBlock = (block, document) => {
   imageLink.setAttribute('href', imageSrc);
 
   // find title content
-  let titleElement = textImageMetaData.querySelector('.text h2');
-  if (!titleElement) {
-    titleElement = textImageMetaData.querySelector('.title h2');
-  }
+  let titleElement = textImageMetaData.querySelector('.cmp-title');
+  // if (!titleElement) {
+  //   titleElement = textImageMetaData.querySelector('.title h2');
+  // }
   const titleContent = titleElement.textContent;
 
   // find description content
-  const descriptionContent = textImageMetaData.querySelector('.text p').textContent;
+  const allText = textImageMetaData.querySelectorAll('.cmp-text');
+  const descriptionContent = allText.length > 1 ? allText[allText.length - 1] : allText[0];
+  const iconBlockCta = textImageMetaData.querySelector('.cta');
 
   // icon block cell creation
   const title = document.createElement('h2');
   title.innerHTML = titleContent;
   const description = document.createElement('p');
-  description.innerHTML = descriptionContent;
+  description.textContent = descriptionContent.textContent;
   const contentCell = document.createElement('div');
+
+  const ctaWrapper = iconBlockCta.querySelector('.doccloud-Button--blue') ? document.createElement('b') : document.createElement('i');
+  ctaWrapper.appendChild(iconBlockCta.querySelector('a'));
   contentCell.appendChild(imageLink);
   contentCell.appendChild(title);
   contentCell.appendChild(description);
+  contentCell.appendChild(ctaWrapper);
 
-  const cells = [['icon-block (fullwidth, large)'], [contentCell]];
+  const cells = [['icon-block (fullwidth, medium, xl-spacing)'], [contentCell]];
 
   // icon block table
   const table = WebImporter.DOMUtils.createTable(cells, document);
@@ -132,30 +139,30 @@ const expressIconBlock = (block, document) => {
   });
 
   // columns cell creation
-  const columnCells = [['Columns(contained, middle)'], columns];
+  // const columnCells = [['Columns(contained, middle)'], columns];
 
-  // columns Table
-  const columnTable = WebImporter.DOMUtils.createTable(columnCells, document);
-  columnTable.classList.add('import-table');
+  // // columns Table
+  // const columnTable = WebImporter.DOMUtils.createTable(columnCells, document);
+  // columnTable.classList.add('import-table');
 
   // section metadata cell creation
-  const sectionMetadataCells = [
-    ['Section Metadata'],
-    ['style', 'xxxl spacing, center'],
-  ];
+  // const sectionMetadataCells = [
+  //   ['Section Metadata'],
+  //   ['style', 'xxxl spacing, center'],
+  // ];
 
-  if (bgImage) {
-    sectionMetadataCells.push(['background', bgImage]);
-  }
+  // if (bgImage) {
+  //   sectionMetadataCells.push(['background', bgImage]);
+  // }
 
-  // section metadata Table
-  const sectionMetaDataTable = WebImporter.DOMUtils.createTable(
-    sectionMetadataCells,
-    document,
-  );
-  sectionMetaDataTable.classList.add('import-table');
+  // // section metadata Table
+  // const sectionMetaDataTable = WebImporter.DOMUtils.createTable(
+  //   sectionMetadataCells,
+  //   document,
+  // );
+  // sectionMetaDataTable.classList.add('import-table');
   block.before(document.createElement('hr'));
-  block.replaceWith(table, columnTable, sectionMetaDataTable);
+  block.replaceWith(table);
 };
 
 export default function createIconBlock(block, document) {

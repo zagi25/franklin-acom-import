@@ -9,8 +9,8 @@ export default function createAsideBlocks(block, document) {
   if (bgImage) {
     bgImageElement = document.createElement('img');
     bgImageElement.src = bgImage;
+    cells.push([bgImageElement || bgcolor || ' ']);
   }
-  cells.push([bgImageElement || bgcolor || ' ']);
 
   const contentWrapper = document.createElement('div');
   // Selecting all images
@@ -56,7 +56,7 @@ export default function createAsideBlocks(block, document) {
   );
   sectionMetaDataTable.classList.add('import-table');
 
-  block.before(document.createElement('hr'));
-  block.after(sectionMetaDataTable);
+  block.after(document.createElement('hr'));
+  // block.after(sectionMetaDataTable);
   block.replaceWith(table);
 }

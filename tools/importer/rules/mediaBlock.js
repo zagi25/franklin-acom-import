@@ -29,57 +29,93 @@ const makeImage = (node, document) => {
   return imgLink;
 };
 
-const makeText = (node, document) => {
-  const textDiv = document.createElement('div');
-  const headingText = node.querySelector('.cmp-title h3');
-  textDiv.appendChild(headingText);
-  const mediaContent = node.querySelector('.text .cmp-text');
-  if (mediaContent) {
-    textDiv.appendChild(mediaContent);
+// const makeText = (node, document) => {
+//   const textDiv = document.createElement('div');
+//   const headingText = node.querySelector('.cmp-title');
+//   textDiv.appendChild(headingText.cloneNode(true));
+//   const mediaContent = node.querySelectorAll('.text .cmp-text');
+//   mediaContent.forEach((content) => {
+//     textDiv.appendChild(content.cloneNode(true));
+//   });
+
+//   const cta = node.querySelector('.cta > .dexter-Cta > a');
+
+//   const href = cta.getAttribute('href');
+
+//   const ctaText = cta?.querySelector(
+//     ':scope > .spectrum-Button-label',
+//   )?.textContent;
+//   if (ctaText) {
+//     const ctaAnchor = document.createElement('a');
+//     ctaAnchor.setAttribute('href', href);
+//     const iCta = document.createElement('i');
+//     iCta.textContent = ctaText;
+//     ctaAnchor.appendChild(iCta);
+//     textDiv.appendChild(ctaAnchor);
+//   }
+//   return textDiv;
+// };
+
+const makeText = (node, document, textDiv) => {
+  if (node.classList.contains('cta')) {
+    const oldCta = node.querySelector('a');
+    const ctaText = oldCta.textContent;
+    if (ctaText) {
+      const ctaAnchor = document.createElement('a');
+      ctaAnchor.setAttribute('href', oldCta.href);
+      const ctaWrapper = oldCta.classList.contains('doccloud-Button--blue') ? document.createElement('b') : document.createElement('i');
+      if (oldCta.classList.contains('spectrum-Button')) {
+        ctaWrapper.textContent = ctaText;
+        ctaAnchor.appendChild(ctaWrapper);
+        textDiv.appendChild(ctaAnchor);
+
+        return;
+      }
+      ctaAnchor.textContent = ctaText;
+      textDiv.appendChild(ctaAnchor);
+    }
+
+    return;
   }
-
-  const cta = node.querySelector('.cta > .dexter-Cta > a');
-
-  const href = cta.getAttribute('href');
-
-  const ctaText = cta?.querySelector(
-    ':scope > .spectrum-Button-label',
-  )?.textContent;
-  if (ctaText) {
-    const ctaAnchor = document.createElement('a');
-    ctaAnchor.setAttribute('href', href);
-    const iCta = document.createElement('i');
-    iCta.textContent = ctaText;
-    ctaAnchor.appendChild(iCta);
-    textDiv.appendChild(ctaAnchor);
-  }
-  return textDiv;
+  textDiv.appendChild(node.cloneNode(true));
 };
 
-export default function mediaBlock(block, document, config) {
-  const { additionalSection = [] } = config;
-  const cells = [['Media']];
-  const { children = [] } = block;
-  const elements = [...children].map((node) => {
-    if (node.className === 'image parbase') {
-      const image = makeImage(node, document);
-      return image;
+export default function mediaBlock(block, document) {
+  const cells = [['Media(xl spacing)']];
+  const textDiv = document.createElement('div');
+  let image = null;
+  [...block.querySelectorAll('.cmp-title, .cmp-text, .cta, .image')].forEach((node) => {
+    if (node.classList.contains('image')) {
+      image = makeImage(node, document);
+      return;
     }
-    const textElement = makeText(node, document);
-    return textElement;
+
+    makeText(node, document, textDiv);
+    return;
   });
-  if (elements.length > 0) {
-    cells.push(elements);
-  }
+
+  // const elements = [...block.querySelector('.dexter-FlexContainer-Items').children].map((node) => {
+  //   if (node.className === 'image parbase') {
+  //     const image = makeImage(node, document);
+  //     return image;
+  //   }
+  //   const textElement = makeText(node, document);
+  //   return textElement;
+  // });
+  // if (elements.length > 0) {
+  //   cells.push(elements);
+  // }
+
+  cells.push([textDiv, image]);
   const table = window.WebImporter.DOMUtils.createTable(cells, document);
   table.classList.add('import-table');
 
-  const sectionMetaDataCells = [['Section Metadata'], ...additionalSection];
+  const sectionMetaDataCells = [['Section Metadata']];
   const sectionTable = window.WebImporter.DOMUtils.createTable(
     sectionMetaDataCells,
     document,
   );
   sectionTable.classList.add('import-table');
-  block.before(document.createElement('hr'));
-  block.replaceWith(table, sectionTable);
+  block.after(document.createElement('hr'));
+  block.replaceWith(table);
 }

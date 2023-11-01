@@ -57,7 +57,6 @@ export default {
     ele.forEach((node) => {
       node.innerHTML = node.innerHTML.replace(/&nbsp;/g, ' ');
     });
-
     /*
       clean
     */
@@ -165,6 +164,9 @@ export default {
       createIconBlockFragment,
       createIconBlockGroup,
       createMarqueeVariantsBlocks,
+      createDividerBlock,
+      mediaBlock,
+      createAssuranceFragment,
     } = fetchBlockScript(params.originalURL);
 
     const { body } = document;
@@ -175,6 +177,19 @@ export default {
       s.replaceWith(span);
     });
     const cardMetadataTable = await createCardMetadata(document, params.originalURL);
+
+    // const links = document.querySelectorAll('a[href*="/sign/esignature-resources/"]');
+
+    // console.log(links.length);
+
+    // links.forEach((link) => {
+    //   if(!link.href.includes('https')){
+    //     const newHref = '/acrobat/business/resources/' + link.href.split('/').pop();
+    //     link.href = 'https://www.adobe.com' + newHref;
+    //   }
+
+    //   console.log(link.href);
+    // });
 
     /*
       missing script table
@@ -305,6 +320,15 @@ export default {
           break;
         case constants.iconBlockGroup:
           createIconBlockGroup(block, document);
+          break;
+        case constants.divider:
+          createDividerBlock(block, document);
+          break;
+        case constants.media:
+          mediaBlock(block, document);
+          break;
+        case constants.assurance:
+          createAssuranceFragment(block, document);
           break;
         default:
           block.before(document.createElement('hr'));

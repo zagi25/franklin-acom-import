@@ -138,12 +138,11 @@ function createMetadata(bgColor, document){
 }
 
 export default function createMarqueeVariantsBlocks(block, document, variation) {
-  // console.log(blockHeight);
   const size = marqueeSize(block);
   const {bgImage, bgColor} = makeBG(block, document);
   const image = block.querySelector('img');
   const cells = [];
-  let tableName = 'marquee ';
+  let tableName = 'marquee';
   const contentRow = [];
   const bgRow = [];
   const marqueeAttributes = [];
@@ -168,15 +167,15 @@ export default function createMarqueeVariantsBlocks(block, document, variation) 
     contentRow.push('', content);
   }else {
     const contentWrapper = block.querySelector('.position');
-    marqueeAttributes.push('light');
-    bgRow.push('', '', bgImage);
+    bgRow.push(bgColor);
     const content = makeContent(contentWrapper, document);
-    contentRow.push(content);
-    block.before(document.createElement('hr'));
+    contentRow.push(content, image);
   }
 
-  size && marqueeAttributes.push(size);
-  tableName += `(${marqueeAttributes.join(', ')})`
+  // size && marqueeAttributes.push(size);
+  // if(marqueeAttributes.length){
+  //   tableName += `(${marqueeAttributes.join(', ')})`
+  // }
 
   cells.push([tableName], bgRow, contentRow);
   const table = WebImporter.DOMUtils.createTable(cells, document);

@@ -29,7 +29,22 @@ export default function createJumpToBlocks(block, document, params, url) {
     const anchorParent = params.elementId[linkId]?.parentElement;
     const heading = findAnchorHeading(anchorParent);
     if(heading) {
-      const hrefLink = MILO_URL + pathname + '#' + heading.toLowerCase().trim().replace(/[^a-zA-Z0-9-\s]/g, '').replace(/-/g, ' ').split(' ').join('-');
+      const formatedHeading = heading
+        .toLowerCase()
+        .trim()
+        .replace(/[^a-zA-Z0-9-\s]/g, '')
+        .replace(/-/g, ' ')
+        .split(' ')
+        .map((el, index) => {
+          if(index === 0 && !isNaN(el)){
+            return;
+          }
+
+          return el;
+        })
+        .filter((el) => el)
+        .join('-');
+      const hrefLink = MILO_URL + pathname + '#' + formatedHeading;
       link.setAttribute('href', hrefLink);
     }
   });

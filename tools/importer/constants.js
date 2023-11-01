@@ -33,4 +33,7 @@ export default {
   marqueeRight: 'marqueeright',
   marqueeDefault: 'marqueedefault',
   iconBlockGroup: 'iconblockgroup',
+  divider: 'divider',
+  media: 'media',
+  assurance: 'assurance',
 };

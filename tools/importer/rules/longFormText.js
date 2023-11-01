@@ -1,7 +1,7 @@
 import createHorizontalcardBlocks from './horizontalCard.js';
 const BASE_URL = 'https://www.adobe.com';
 
-const getTableName = (data, index) => {
+const getTableName = (data, index, title) => {
   let imageFirst = false;
   if(index === 1){
     imageFirst = data[0].classList.contains('image');
@@ -18,6 +18,10 @@ const getTableName = (data, index) => {
     spacing = 'no spacing';
   }
 
+  if(title){
+    size = 'l-body';
+  }
+
   if(inset){
     block = 'inset';
     spacing = 'no spacing';
@@ -28,6 +32,15 @@ const getTableName = (data, index) => {
 
 export default function createLongFormTextBlocks(block, document) {
   let allData = [...block.querySelectorAll('.text, .image, .title, .spectrum-Button, .video')];
+  console.log(allData);
+  const title = allData[0]?.classList.contains('title') && allData[0]?.nextElementSibling?.classList.contains('position') ? allData[0] : null;
+  if(title){
+    const cells = [['text(long form, no spacing top, xl spacing bottom)']];
+    cells.push([title.cloneNode(true)]);
+    const titleTable = WebImporter.DOMUtils.createTable(cells, document);
+    titleTable.classList.add('import-table');
+    title.replaceWith(titleTable);
+  }
   if(allData.length > 1){
     allData = allData.filter((el, index) => {
       if(el.classList.contains('text') || 
@@ -50,7 +63,7 @@ export default function createLongFormTextBlocks(block, document) {
   let cardFirst = false;
   allData.forEach((element, index) => {
     const textDiv = document.createElement('div');
-    let tableName = getTableName(allData, index);
+    let tableName = getTableName(allData, index, title);
 
     if(index === 0 && element.classList.contains('image')){
       textDiv.appendChild(element.cloneNode(true));

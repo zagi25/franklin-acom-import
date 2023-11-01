@@ -24,6 +24,9 @@ import createHowTo from './howTo.js';
 import createHorizontalcardBlocks from './horizontalCard.js';
 import createIconBlockGroup from './iconBlockGroup.js';
 import createMarqueeVariantsBlocks from './marqueeVariants.js';
+import createDividerBlock from './divider.js';
+import mediaBlock from './mediaBlock.js';
+import createAssuranceFragment from './assuranceFragment.js';
 
 export default {
   createAccordionBlocks,
@@ -53,4 +56,7 @@ export default {
   createIconBlockFragment,
   createIconBlockGroup,
   createMarqueeVariantsBlocks,
+  createDividerBlock,
+  mediaBlock,
+  createAssuranceFragment,
 };

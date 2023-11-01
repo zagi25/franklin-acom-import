@@ -1,9 +1,9 @@
 //Card metadata table
 export const createCardMetadata = async (document, url) => {
-  const consonantCard = document.querySelector('consonant-card-collection');
-  if(!consonantCard){
-    return;
-  }
+  // const consonantCard = document.querySelector('consonant-card-collection');
+  // if(!consonantCard){
+  //   return;
+  // }
 
   const cells = [['card metadata']];
   const cardMeta = {};
@@ -17,13 +17,13 @@ export const createCardMetadata = async (document, url) => {
   const el = document.createElement('img');
   if(ogImage){
     el.src = ogImage.content;
-    cardMeta.cardImage = el;
   }else {
-    cardMeta.cardImage = firstImage;
+    el.src = firstImage.src;
   }
-  const dataConfig = JSON.parse(consonantCard.getAttribute('data-config'));
-  const endpoint = dataConfig && new URL(dataConfig.collection.endpoint).searchParams;
-  cardMeta.primaryTag = endpoint?.get('contentTypeTags');
+  cardMeta.cardImage = el;
+  // const dataConfig = JSON.parse(consonantCard.getAttribute('data-config'));
+  // const endpoint = dataConfig && new URL(dataConfig.collection.endpoint).searchParams;
+  // cardMeta.primaryTag = endpoint?.get('contentTypeTags');
   //importing json with CaaS tags
   try{
     const {default: caas_data} = await import('../caas_tags.json',{
@@ -32,9 +32,13 @@ export const createCardMetadata = async (document, url) => {
       }
     });
     const tags = caas_data[url];
-    cardMeta.Tags = tags
-      ?.filter((tag) => tag !== cardMeta.primaryTag)
-      .join(',');
+    if(!tags){
+      return;
+    }
+    // cardMeta.Tags = tags
+    //   ?.filter((tag) => tag !== cardMeta.primaryTag)
+    //   .join(',');
+    cardMeta.Tags = tags.join(',');
 
   }catch (e) {
     console.log(e);
