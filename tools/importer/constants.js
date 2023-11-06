@@ -23,6 +23,7 @@ export default {
   table: 'table',
   image: 'image',
   marqueeSplit: 'marqueesplit',
+  marqueeVideo: 'marqueevideo',
   jumpTo: 'jumpto',
   longFormText: 'longformtext',
   consonantCard: 'consonantcard',

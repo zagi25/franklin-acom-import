@@ -3,6 +3,7 @@ const BASE_URL = 'https://www.adobe.com';
 function makeBG(block, document) {
   let bgImage = makeBGImage(block, document);
   let bgColor = makeBGColor(block);
+  let bgVideo = makeVideo(block, document);
 
   if(!bgImage || !bgColor){
     const styles = block?.querySelector('style')?.innerHTML.split(':');
@@ -19,7 +20,17 @@ function makeBG(block, document) {
     }
   }
 
-  return { bgImage, bgColor};
+  return { bgImage, bgColor, bgVideo};
+}
+
+function makeVideo(block) {
+  const videoWrapper = block?.querySelector('.video-Wrapper source');
+  if (!videoWrapper) return null;
+  const backgroundVideoURL = videoWrapper.getAttribute('src');
+  const a = document.createElement('a');
+  a.innerHTML = backgroundVideoURL;
+  a.setAttribute('href', backgroundVideoURL);
+  return a;
 }
 
 function makeBGColor(block) {
@@ -57,31 +68,35 @@ function marqueeSize(block) {
   return size;
 }
 
-function makeBtn(buttonDiv, document) {
-  const button = buttonDiv.querySelector('.spectrum-Button');
-  const btnWrapper = document.createElement('a');
-  btnWrapper.href = BASE_URL + button.href;
-  let btnContent = null;
-  if(button?.classList.contains('doccloud-Button--blue') ||
-    button?.classList.contains('spectrum-Button--accent')){
-    btnContent = document.createElement('b');
-  }
-  if(button?.classList.contains('doccloud-Button--white')){
-    btnContent = document.createElement('i');
-  }
+function makeBtn(buttonDivs, document) {
+  const buttons = [];
+  Array.from(buttonDivs).forEach((buttonDiv) => {
+    const button = buttonDiv.querySelector('.spectrum-Button');
+    let btnWrapper = null;
+    if(button) {
+      btnWrapper = document.createElement('a');
+      btnWrapper.href = BASE_URL + button.href;
+      let btnContent = null;
+      if(button?.classList.contains('doccloud-Button--blue') ||
+        button?.classList.contains('spectrum-Button--cta') ||
+        button?.classList.contains('spectrum-Button--accent')){
+        btnContent = document.createElement('b');
+      }
+      if(button?.classList.contains('doccloud-Button--white') ||
+        button?.classList.contains('spectrum-Button--overBackground') ||
+        button?.classList.contains('spectrum-Button--staticWhite')){
+        btnContent = document.createElement('i');
+      }
 
-  btnContent.textContent = button.textContent;
-  btnWrapper.appendChild(btnContent);
-  const playLink = buttonDiv.querySelector('.spectrum-Link');
-  const btnGroup = document.createElement('div');
+      btnContent.textContent = button.textContent;
+      btnWrapper.appendChild(btnContent);
+    }
+    const playLink = buttonDiv.querySelector('.spectrum-Link');
 
-  if(playLink){
-    const playIcon = document.createElement('span');
-    playIcon.textContent = ':play-circle:'
-    btnGroup.append(btnWrapper, playIcon, playLink);
-  }
+    buttons.push(btnWrapper ?? playLink);
+  });
 
-  return playLink ? btnGroup : btnWrapper;
+  return buttons;
 }
 
 function makeParagraph(paragraph, document){
@@ -97,10 +112,14 @@ function makeParagraph(paragraph, document){
 function makeContent(contentDiv, document) {
   const newContent = document.createElement('div');
   const contentDivs = contentDiv.querySelectorAll('.text, .title');
+  const image = contentDiv.querySelector('img');
   let preTitle = null;
   let title = null;
   let paragraph = null;
   let btn = null;
+  if (image) {
+    newContent.appendChild(image.cloneNode(true));
+  }
   if(contentDivs.length % 3 === 0){
     preTitle = contentDivs[0];
     title = contentDivs[1];
@@ -110,12 +129,12 @@ function makeContent(contentDiv, document) {
     paragraph = makeParagraph(contentDivs[1]);
   }
 
-  const btnDiv = contentDiv.querySelector('.cta, .flex');
-  if(btnDiv){
-    btn = makeBtn(btnDiv, document);
+  const btnDivs = contentDiv.querySelectorAll('.cta');
+  if(btnDivs.length){
+    btn = makeBtn(btnDivs, document);
   }
 
-  [preTitle, title, paragraph, btn].forEach((el) => {
+  [preTitle, title, paragraph, ...btn].forEach((el) => {
     if(el){
       newContent.appendChild(el);
     }
@@ -139,8 +158,8 @@ function createMetadata(bgColor, document){
 
 export default function createMarqueeVariantsBlocks(block, document, variation) {
   const size = marqueeSize(block);
-  const {bgImage, bgColor} = makeBG(block, document);
-  const image = block.querySelector('img');
+  const {bgImage, bgColor, bgVideo} = makeBG(block, document);
+  const image = block.querySelector('.dexter-FlexContainer-Items > .image img');
   const cells = [];
   let tableName = 'marquee';
   const contentRow = [];
@@ -149,9 +168,9 @@ export default function createMarqueeVariantsBlocks(block, document, variation) 
 
   let marqueeWrapper = block.querySelector('.aem-Grid');
   //Check if there is a wrapper inside a wrapper
-  if(marqueeWrapper?.childElementCount < 2){
-    marqueeWrapper = marqueeWrapper.querySelector('.aem-Grid');
-  }
+  // if(marqueeWrapper?.childElementCount < 2){
+  //   marqueeWrapper = marqueeWrapper.querySelector('.aem-Grid');
+  // }
 
   if(variation === 'split'){
     marqueeAttributes.push('split', 'one-third', 'dark');
@@ -165,6 +184,11 @@ export default function createMarqueeVariantsBlocks(block, document, variation) 
     const content = makeContent(marqueeWrapper ? marqueeWrapper : contentWrapper, document);
     bgRow.push('','', bgImage);
     contentRow.push('', content);
+  } else if (variation === 'video') {
+    const contentWrapper = block.querySelector('.position');
+    const content = makeContent(contentWrapper, document);
+    bgRow.push(bgImage);
+    contentRow.push(content, [image, bgVideo]);
   }else {
     const contentWrapper = block.querySelector('.position');
     bgRow.push(bgColor);
@@ -181,10 +205,10 @@ export default function createMarqueeVariantsBlocks(block, document, variation) 
   const table = WebImporter.DOMUtils.createTable(cells, document);
   table.classList.add('import-table');
 
-  if(variation !== 'split'){
-    const sectionMetaDataTable = createMetadata(bgColor, document);
-    block.after(sectionMetaDataTable);
-  }
+  // if(variation !== 'split'){
+  //   const sectionMetaDataTable = createMetadata(bgColor, document);
+  //   block.after(sectionMetaDataTable);
+  // }
   block.replaceWith(table);
 }
 

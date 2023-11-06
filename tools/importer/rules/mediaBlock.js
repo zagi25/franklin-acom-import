@@ -29,32 +29,16 @@ const makeImage = (node, document) => {
   return imgLink;
 };
 
-// const makeText = (node, document) => {
-//   const textDiv = document.createElement('div');
-//   const headingText = node.querySelector('.cmp-title');
-//   textDiv.appendChild(headingText.cloneNode(true));
-//   const mediaContent = node.querySelectorAll('.text .cmp-text');
-//   mediaContent.forEach((content) => {
-//     textDiv.appendChild(content.cloneNode(true));
-//   });
+const makeVideo = (node, document) => {
+  const video = node.querySelector('iframe');
+  const videoLink = document.createElement('a');
+  videoLink.src = video?.src;
+  videoLink.textContent = video?.src;
+  video.remove();
 
-//   const cta = node.querySelector('.cta > .dexter-Cta > a');
+  return videoLink;
 
-//   const href = cta.getAttribute('href');
-
-//   const ctaText = cta?.querySelector(
-//     ':scope > .spectrum-Button-label',
-//   )?.textContent;
-//   if (ctaText) {
-//     const ctaAnchor = document.createElement('a');
-//     ctaAnchor.setAttribute('href', href);
-//     const iCta = document.createElement('i');
-//     iCta.textContent = ctaText;
-//     ctaAnchor.appendChild(iCta);
-//     textDiv.appendChild(ctaAnchor);
-//   }
-//   return textDiv;
-// };
+};
 
 const makeText = (node, document, textDiv) => {
   if (node.classList.contains('cta')) {
@@ -63,7 +47,7 @@ const makeText = (node, document, textDiv) => {
     if (ctaText) {
       const ctaAnchor = document.createElement('a');
       ctaAnchor.setAttribute('href', oldCta.href);
-      const ctaWrapper = oldCta.classList.contains('doccloud-Button--blue') ? document.createElement('b') : document.createElement('i');
+      const ctaWrapper = oldCta.classList.contains('doccloud-Button--blue') ? document.createElement('b') : document.createElement('b');
       if (oldCta.classList.contains('spectrum-Button')) {
         ctaWrapper.textContent = ctaText;
         ctaAnchor.appendChild(ctaWrapper);
@@ -84,29 +68,26 @@ export default function mediaBlock(block, document) {
   const cells = [['Media(xl spacing)']];
   const textDiv = document.createElement('div');
   let image = null;
-  [...block.querySelectorAll('.cmp-title, .cmp-text, .cta, .image')].forEach((node) => {
+  let video = null;
+  const content = [];
+  [...block.querySelectorAll('.cmp-title, .cmp-text, .cta, .image, .video')].forEach((node) => {
     if (node.classList.contains('image')) {
       image = makeImage(node, document);
+      content.push(image);
       return;
+    } else if (node.classList.contains('video')) {
+      video = makeVideo(node, document);
+      content.push(video);
     }
 
+    if (!textDiv.childElementCount) {
+      content.push(textDiv);
+    }
     makeText(node, document, textDiv);
     return;
   });
 
-  // const elements = [...block.querySelector('.dexter-FlexContainer-Items').children].map((node) => {
-  //   if (node.className === 'image parbase') {
-  //     const image = makeImage(node, document);
-  //     return image;
-  //   }
-  //   const textElement = makeText(node, document);
-  //   return textElement;
-  // });
-  // if (elements.length > 0) {
-  //   cells.push(elements);
-  // }
-
-  cells.push([textDiv, image]);
+  cells.push(content);
   const table = window.WebImporter.DOMUtils.createTable(cells, document);
   table.classList.add('import-table');
 
@@ -116,6 +97,6 @@ export default function mediaBlock(block, document) {
     document,
   );
   sectionTable.classList.add('import-table');
-  block.after(document.createElement('hr'));
+  block.before(document.createElement('hr'));
   block.replaceWith(table);
 }

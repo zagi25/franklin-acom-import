@@ -109,7 +109,8 @@ export default {
 
     // set height attribute
     const blocks = await getBlocks(url);
-    const pageBlocks = blocks[params.originalURL];
+    // const pageBlocks = blocks[params.originalURL];
+    const pageBlocks = blocks;
     const allBlockIds = pageBlocks ? Object.keys(pageBlocks) : [];
     let offsetDiff = 0;
     let latestOffset = 0;
@@ -176,7 +177,7 @@ export default {
       span.innerHTML = s.innerHTML;
       s.replaceWith(span);
     });
-    const cardMetadataTable = await createCardMetadata(document, params.originalURL);
+    // const cardMetadataTable = await createCardMetadata(document, params.originalURL);
 
     // const links = document.querySelectorAll('a[href*="/sign/esignature-resources/"]');
 
@@ -291,6 +292,9 @@ export default {
         case constants.marqueeSplit:
           createMarqueeVariantsBlocks(block, document, 'split');
           break;
+        case constants.marqueeVideo:
+          createMarqueeVariantsBlocks(block, document, 'video');
+          break;
         case constants.jumpTo:
           createJumpToBlocks(block, document, params, url);
           break;
@@ -340,7 +344,7 @@ export default {
       const divOffset = parseInt(id.split('-').pop(), 10);
       createBlocks(name, divOffset);
     });
-    createMetadataBlock(document, cardMetadataTable);
+    // createMetadataBlock(document, cardMetadataTable);
 
     return body;
   },

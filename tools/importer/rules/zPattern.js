@@ -29,13 +29,14 @@ export default function createZPatternBlock(block, document) {
     } while (ancestor && keep);
     return keep;
   });
+  const title = block.querySelector('h2');
 
   if (containers.length) {
     containers.forEach((container) => {
       const columns = [...container.children];
       const cells = [[zPatternVariation(blockHeight)]];
       // empty row for title and description
-      cells.push([' ']);
+      cells.push([title.cloneNode(true)]);
       const row = [];
       columns.forEach((col) => {
         row.push(col.innerHTML);
@@ -48,7 +49,7 @@ export default function createZPatternBlock(block, document) {
   } else {
     const cells = [[zPatternVariation(blockHeight)]];
     // empty row for title and description
-    cells.push([' ']);
+    cells.push([title.cloneNode(true)]);
     const row = [];
     const videoWrapper = block.querySelector('.video-Wrapper source');
     const parent = videoWrapper.parentElement;
