@@ -36,4 +36,5 @@ export default {
   divider: 'divider',
   media: 'media',
   assurance: 'assurance',
+  marqueeVideo: 'marqueevideo',
 };

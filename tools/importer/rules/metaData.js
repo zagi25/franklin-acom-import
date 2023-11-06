@@ -18,7 +18,7 @@ export const createCardMetadata = async (document, url) => {
   if(ogImage){
     el.src = ogImage.content;
   }else {
-    el.src = firstImage.src;
+    el.src = firstImage?.src;
   }
   cardMeta.cardImage = el;
   // const dataConfig = JSON.parse(consonantCard.getAttribute('data-config'));

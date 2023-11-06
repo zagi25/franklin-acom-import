@@ -109,7 +109,7 @@ export default {
 
     // set height attribute
     const blocks = await getBlocks(url);
-    const pageBlocks = blocks[params.originalURL];
+    const pageBlocks = blocks[params.originalURL.trim()];
     const allBlockIds = pageBlocks ? Object.keys(pageBlocks) : [];
     let offsetDiff = 0;
     let latestOffset = 0;
@@ -329,6 +329,9 @@ export default {
           break;
         case constants.assurance:
           createAssuranceFragment(block, document);
+          break;
+        case constants.marqueeVideo:
+          createMarqueeVariantsBlocks(block, document, 'video');
           break;
         default:
           block.before(document.createElement('hr'));
