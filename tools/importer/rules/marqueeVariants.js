@@ -101,11 +101,12 @@ function makeBtn(buttonDivs, document) {
 }
 
 function makeParagraph(paragraph, document){
-  // if(paragraph.classList.contains('title')){
-  //   const p = document.createElement('p');
-  //   p.textContent = paragraph.textContent;
-  //   return p;
-  // }
+  if(!paragraph) return;
+  if(paragraph.classList.contains('title')){
+    const p = document.createElement('p');
+    p.textContent = paragraph.textContent;
+    return p;
+  }
 
   return paragraph;
 }
@@ -135,9 +136,9 @@ function makeContent(contentDiv, document) {
     btn = makeBtn(btnDivs, document);
   }
 
-  [preTitle, title, paragraph, btn].forEach((el) => {
+  [preTitle, title, paragraph, ...btn].forEach((el) => {
     if(el){
-      newContent.appendChild(el);
+      newContent.appendChild(el.cloneNode(true));
     }
   });
 
@@ -192,9 +193,9 @@ export default function createMarqueeVariantsBlocks(block, document, variation) 
     contentRow.push(content, [image, bgVideo]);
   }else {
     const contentWrapper = block.querySelector('.position');
-    bgRow.push(bgColor);
+    bgRow.push(bgImage || bgColor);
     const content = makeContent(contentWrapper, document);
-    contentRow.push(content, image);
+    contentRow.push(content, '');
   }
 
   // size && marqueeAttributes.push(size);
@@ -206,10 +207,10 @@ export default function createMarqueeVariantsBlocks(block, document, variation) 
   const table = WebImporter.DOMUtils.createTable(cells, document);
   table.classList.add('import-table');
 
-  // if(variation !== 'split'){
-  //   const sectionMetaDataTable = createMetadata(bgColor, document);
-  //   block.after(sectionMetaDataTable);
-  // }
+  if(variation !== 'split'){
+    const sectionMetaDataTable = createMetadata(bgColor, document);
+    block.after(sectionMetaDataTable);
+  }
   block.replaceWith(table);
 }
 

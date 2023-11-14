@@ -1,10 +1,4 @@
 const BASE_URL = 'https://www.adobe.com';
-const translateLength = {
-  1: 'one',
-  2: 'two',
-  3: 'three',
-  4: 'four'
-}
 
 export default function createIconBlockGroup(block, document){
   const iconBlocks = block.querySelector('.dexter-FlexContainer-Items') ? block.querySelector('.dexter-FlexContainer-Items') : block.querySelector('.doccloud-Position-center .aem-Grid');
@@ -58,7 +52,6 @@ export default function createIconBlockGroup(block, document){
     }
   });
 
-  // let style = `${translateLength[tables.length]}-up, xxl spacing, grid width 10`;
   let style = `three-up, xxl spacing, grid width 10`;
   const sectionMetadataCells = [['Section Metadata'], ['style', style]];
   const bgColor = block.querySelector('div[data-bgcolor]')?.getAttribute('data-bgcolor');

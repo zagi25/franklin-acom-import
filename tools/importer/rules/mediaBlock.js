@@ -8,7 +8,7 @@ const makeImage = (node, document) => {
     }
     const alt = image.getAttribute('alt');
     const src = image.getAttribute('src');
-    if (alt) {
+    if (src || alt) {
       if (src && src.indexOf('https') === -1) {
         imgSrc = `https://www.adobe.com/${image.getAttribute('src')}`;
       } else {
@@ -116,6 +116,6 @@ export default function mediaBlock(block, document) {
     document,
   );
   sectionTable.classList.add('import-table');
-  block.after(document.createElement('hr'));
+  block.before(document.createElement('hr'));
   block.replaceWith(table);
 }

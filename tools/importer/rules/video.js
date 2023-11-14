@@ -1,7 +1,7 @@
 export default function createVideo(block, document) {
   const video = block.querySelector('.video iframe');
   const videoLink = document.createElement('a');
-  videoLink.src = video.src;
+  videoLink.href = video.src;
   videoLink.textContent = video.src;
 
   const bgcolor = block
