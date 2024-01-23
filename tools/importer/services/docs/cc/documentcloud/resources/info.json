@@ -1,0 +1,19 @@
+{
+  "https://www.adobe.com/documentcloud/resources/compliance.html": {
+    "00-4": "marquee",
+    "01-4": "unkown",
+    "02-4": "unknown",
+    "03-4": "unknown",
+    "04-4": "unknown"
+  },
+  "https://www.adobe.com/documentcloud/resources/it-tools.html": {
+    "00-4": "spacer",
+    "01-4": "marquee",
+    "02-4": "unknown",
+    "03-6": "unknown",
+    "04-6": "unknown",
+    "05-6": "unknown",
+    "06-6": "unknown"
+  }
+}
+

@@ -1,0 +1,20 @@
+{
+    "https://www.adobe.com/acrobat/mobile/acrobat-reader.html": {
+        "00-4": "media",
+        "01-4": "media",
+        "02-4": "media",
+        "03-4": "media",
+        "04-4": "iconblockgroup",
+        "05-4": "text",
+        "06-4": "iconblock?"
+    },
+    "https://www.adobe.com/acrobat/mobile/scanner-app.html": {
+        "00-4": "media",
+        "01-4": "media",
+        "02-4": "media",
+        "03-4": "media",
+        "04-4": "media",
+        "05-4": "iconblockgroup",
+        "06-4": "iconblock"
+    }
+}

@@ -1,0 +1,39 @@
+{
+  "https://www.adobe.com/documentcloud/integrations.html": {
+    "00-4": "marquee",
+    "01-4": "longformtext",
+    "02-4": "iconblockgroup",
+    "03-4": "divider",
+    "04-4": "longformtext",
+    "05-4": "iconblockgroup",
+    "06-4": "divider",
+    "07-4": "longformtext",
+    "08-4": "iconblockgroup",
+    "09-4": "divider",
+    "10-4": "longformtext",
+    "11-4": "iconblockgroup",
+    "12-4": "longformtext",
+    "13-4": "iconblockgroup",
+    "14-4": "longformtext",
+    "15-4": "iconblockgroup",
+    "16-4": "divider",
+    "17-4": "longformtext",
+    "18-4": "iconblockgroup",
+    "19-4": "longformtext",
+    "20-4": "longformtext",
+    "21-4": "unkown"
+
+  },
+  "https://www.adobe.com/documentcloud/resources.html": {
+    "00-4": "marquee",
+    "01-4": "unknown",
+    "02-4": "unknown",
+    "03-4": "unknown",
+    "04-4": "spacer",
+    "05-4": "unknown",
+    "06-4": "unknown",
+    "07-4": "unknown",
+    "08-4": "unknown",
+    "09-4": "unknown"
+  }
+}

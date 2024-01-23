@@ -27,6 +27,9 @@ import createMarqueeVariantsBlocks from './marqueeVariants.js';
 import createDividerBlock from './divider.js';
 import mediaBlock from './mediaBlock.js';
 import createAssuranceFragment from './assuranceFragment.js';
+import createTextWithFormBlocks from './textWithForm.js';
+import createActionItemGroupBlocks from './actionItemGroup.js';
+import createHalfCardsBlock from './halfCards.js';
 
 export default {
   createAccordionBlocks,
@@ -59,4 +62,7 @@ export default {
   createDividerBlock,
   mediaBlock,
   createAssuranceFragment,
+  createTextWithFormBlocks,
+  createActionItemGroupBlocks,
+  createHalfCardsBlock,
 };

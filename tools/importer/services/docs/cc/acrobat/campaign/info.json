@@ -1,0 +1,67 @@
+{
+    "https://www.adobe.com/acrobat/campaign/acrobats-got-it-er.html": {
+        "00-4": "marqueevideo",
+        "01-4": "unknown",
+        "02-4": "unknown",
+        "03-4": "unknown"
+    },
+    "https://www.adobe.com/acrobat/campaign/acrobats-got-it.html": {
+        "00-4": "marqueedefault",
+        "01-4": "unknown",
+        "02-4": "unknown",
+        "03-4": "unknown",
+        "04-4": "unknown",
+        "05-4": "unknown",
+        "06-4": "unknown",
+        "07-4": "unknown",
+        "08-4": "unknown",
+        "09-4": "unknown"
+    },
+    "https://www.adobe.com/acrobat/campaign/mobile-link-eol.html": {
+        "00-10": "unknown"
+    },
+    "https://www.adobe.com/acrobat/campaign/subscribe-eos.html": {
+        "00-4": "marqueeright",
+        "01-4": "unknown",
+        "02-4": "unknown",
+        "03-4": "unknown",
+        "04-4": "unknown",
+        "05-4": "unknown",
+        "06-4": "unknown",
+        "07-4": "unknown",
+        "08-4": "unknown",
+        "09-4": "unknown",
+        "10-4": "unknown"
+    },
+    "https://www.adobe.com/acrobat/campaign/subscribe-vip.html": {
+        "00-4": "marqueeright",
+        "01-4": "unknown",
+        "02-4": "unknown",
+        "03-4": "unknown",
+        "04-4": "unknown",
+        "05-4": "unknown",
+        "06-4": "unknown",
+        "07-4": "unknown",
+        "08-4": "unknown",
+        "09-4": "unknown"
+    },
+    "https://www.adobe.com/acrobat/campaign/subscribe.html": {
+        "00-4": "marqueeright",
+        "01-4": "unknown",
+        "02-4": "unknown",
+        "03-4": "unknown",
+        "04-4": "unknown",
+        "05-4": "unknown",
+        "06-4": "unknown",
+        "07-4": "unknown",
+        "08-4": "unknown",
+        "09-4": "unknown"
+    },
+    "https://www.adobe.com/acrobat/campaign/home-personal.html": {
+        "00-4": "marqueedefault",
+        "01-4": "unknown",
+        "02-4": "unknown",
+        "03-4": "unknown",
+        "04-4": "unknown"
+    }
+}

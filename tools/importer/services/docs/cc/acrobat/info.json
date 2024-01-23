@@ -1,0 +1,25 @@
+{
+    "https://www.adobe.com/acrobat/campaign.html": {
+        "00-0": "longformtext",
+        "01-4": "marquee",
+        "02-4": "jumpto",
+        "03-4": "jumpto",
+        "04-4": "longformtext",
+        "05-4": "jumpto",
+        "06-4": "longformtext",
+        "07-4": "marquee",
+        "08-13": "spacer"
+    },
+    "https://www.adobe.com/acrobat/rfi-contact.html": {
+        "00-4": "marqueedefault",
+        "01-4": "textwithform"
+    },
+    "https://www.adobe.com/acrobat/mobile.html": {
+        "00-4": "marqueedefault",
+        "01-4": "iconblockgroup",
+        "02-4": "media",
+        "03-4": "media",
+        "04-4": "media",
+        "05-4": "aside"
+    }
+}

@@ -1,3 +1,13 @@
+import { formatLinks } from '../utils.js';
+const BASE_URL = 'https://www.adobe.com';
+
+function makeBGColor(block) {
+  return (
+    block.querySelector('div[data-bgcolor]')?.getAttribute('data-bgcolor')
+    ?? null
+  );
+}
+
 const makeImage = (node, document) => {
   const imageTags = node.querySelectorAll('img');
   let imgLink = null;
@@ -77,11 +87,16 @@ const makeText = (node, document, textDiv) => {
 
     return;
   }
+
   textDiv.appendChild(node.cloneNode(true));
 };
 
 export default function mediaBlock(block, document) {
-  const cells = [['Media(xl spacing)']];
+  formatLinks(BASE_URL, block);
+  // [...block.querySelectorAll('.cmp-text')].forEach((text) => {
+  //   console.log(text.textContent.trim());
+  // });
+  const cells = [['Media(s-spacing-bottom, s-spacing-top)']];
   const textDiv = document.createElement('div');
   let image = null;
   [...block.querySelectorAll('.cmp-title, .cmp-text, .cta, .image')].forEach((node) => {
@@ -91,7 +106,6 @@ export default function mediaBlock(block, document) {
     }
 
     makeText(node, document, textDiv);
-    return;
   });
 
   // const elements = [...block.querySelector('.dexter-FlexContainer-Items').children].map((node) => {
@@ -105,17 +119,24 @@ export default function mediaBlock(block, document) {
   // if (elements.length > 0) {
   //   cells.push(elements);
   // }
+  //
 
   cells.push([textDiv, image]);
   const table = window.WebImporter.DOMUtils.createTable(cells, document);
   table.classList.add('import-table');
+  
+  const bgColor = makeBGColor(block);
+  if (bgColor) {
+    const sectionMetaDataCells = [['Section Metadata'], ['background', bgColor]];
+    const sectionTable = window.WebImporter.DOMUtils.createTable(
+      sectionMetaDataCells,
+      document,
+    );
+    sectionTable.classList.add('import-table');
+    block.after(sectionTable);
 
-  const sectionMetaDataCells = [['Section Metadata']];
-  const sectionTable = window.WebImporter.DOMUtils.createTable(
-    sectionMetaDataCells,
-    document,
-  );
-  sectionTable.classList.add('import-table');
+  }
+
   block.before(document.createElement('hr'));
   block.replaceWith(table);
 }

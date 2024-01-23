@@ -19,4 +19,14 @@ const compose = (...fns) => (inputParams) => fns.reduce((acc, fn) => {
   return [...acc, ...result];
 }, []);
 
-export { compose, rgbToHex };
+const formatLinks = (base, block) => {
+  const allLinks = block.querySelectorAll('a');
+  allLinks.forEach((link) => {
+    const url = new URL(link.href);
+    if (url.href.includes('localhost:3001')) {
+      link.href = base + url.pathname;
+    }
+  });
+};
+
+export { compose, rgbToHex, formatLinks };

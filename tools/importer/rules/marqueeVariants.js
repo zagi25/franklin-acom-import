@@ -1,3 +1,4 @@
+import { formatLinks } from '../utils.js';
 const BASE_URL = 'https://www.adobe.com';
 
 function makeBG(block, document) {
@@ -57,6 +58,28 @@ function makeBGImage(block, document) {
   return null;
 }
 
+function getMobileTableImage (block) {
+  const sources = block.querySelector('picture')?.querySelectorAll('source');
+  let mobile = '';
+  let tablet = '';
+  sources?.forEach((source) => {
+    const srcSet = source.getAttribute('data-srcset');
+    if (srcSet.includes('mobile')) {
+      const mobileImage = document.createElement('img');
+      mobileImage.src = 'https://www.adobe.com' + srcSet;
+      mobile = mobileImage
+    }
+
+    if (srcSet.includes('tablet')) {
+      const tabletImage = document.createElement('img');
+      tabletImage.src = 'https://www.adobe.com' + srcSet;
+      tablet = tabletImage
+    }
+  });
+
+  return [mobile, tablet];
+}
+
 
 function marqueeSize(block) {
   const marqueeHeight = parseInt(block?.getAttribute('data-height') ?? 0, 10);
@@ -75,7 +98,7 @@ function makeBtn(buttonDivs, document) {
     let btnWrapper = null;
     if(button) {
       btnWrapper = document.createElement('a');
-      btnWrapper.href = BASE_URL + button.href;
+      btnWrapper.href = button.href;
       let btnContent = null;
       if(button?.classList.contains('doccloud-Button--blue') ||
         button?.classList.contains('spectrum-Button--cta') ||
@@ -118,7 +141,7 @@ function makeContent(contentDiv, document) {
   let preTitle = null;
   let title = null;
   let paragraph = null;
-  let btn = null;
+  let btn = [];
   if (image) {
     newContent.appendChild(image.cloneNode(true));
   }
@@ -158,7 +181,9 @@ function createMetadata(bgColor, document){
   }
 }
 
+
 export default function createMarqueeVariantsBlocks(block, document, variation) {
+  formatLinks(BASE_URL, block);
   const size = marqueeSize(block);
   const {bgImage, bgColor, bgVideo} = makeBG(block, document);
   const image = block.querySelector('.dexter-FlexContainer-Items > .image img');
@@ -167,6 +192,7 @@ export default function createMarqueeVariantsBlocks(block, document, variation) 
   const contentRow = [];
   const bgRow = [];
   const marqueeAttributes = [];
+  const [mobileImage, tabletImage ] = getMobileTableImage(block);
 
   let marqueeWrapper = block.querySelector('.aem-Grid');
   //Check if there is a wrapper inside a wrapper
@@ -191,9 +217,14 @@ export default function createMarqueeVariantsBlocks(block, document, variation) 
     const content = makeContent(contentWrapper, document);
     bgRow.push(bgImage);
     contentRow.push(content, [image, bgVideo]);
+  } else if (variation === 'faas') {
+    tableName += '(small)';
+    bgRow.push(bgImage);
+    const content = document.querySelector('h1');
+    contentRow.push(image, content);
   }else {
     const contentWrapper = block.querySelector('.position');
-    bgRow.push(bgImage || bgColor);
+    bgRow.push(mobileImage, tabletImage, bgImage);
     const content = makeContent(contentWrapper, document);
     contentRow.push(content, '');
   }
@@ -207,10 +238,10 @@ export default function createMarqueeVariantsBlocks(block, document, variation) 
   const table = WebImporter.DOMUtils.createTable(cells, document);
   table.classList.add('import-table');
 
-  if(variation !== 'split'){
-    const sectionMetaDataTable = createMetadata(bgColor, document);
-    block.after(sectionMetaDataTable);
-  }
+  // if(variation !== 'split'){
+  //   const sectionMetaDataTable = createMetadata(bgColor, document);
+  //   block.after(sectionMetaDataTable);
+  // }
   block.replaceWith(table);
 }
 

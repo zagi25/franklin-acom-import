@@ -9,16 +9,21 @@ export const createCardMetadata = async (document, url) => {
   const cardMeta = {};
   cardMeta.title = document.querySelector('h1')?.textContent;
 
-  const ogImageAlt = document.querySelector('[property="og:image:alt"]');
-  cardMeta.cardImageAltText = ogImageAlt?.content;
+  let ogImageAlt = document.querySelector('[property="og:image:alt"]');
 
   const ogImage = document.querySelector('[property="og:image"]');
   const firstImage = document.querySelector('.image img');
   const el = document.createElement('img');
   if(ogImage){
     el.src = ogImage.content;
-  }else {
+  } else {
     el.src = firstImage?.src;
+  }
+
+  if (ogImageAlt) {
+    cardMeta.cardImageAltText = ogImageAlt?.content;
+  } else {
+    cardMeta.caradImageAltText = firstImage?.alt;
   }
   cardMeta.cardImage = el;
   // const dataConfig = JSON.parse(consonantCard.getAttribute('data-config'));

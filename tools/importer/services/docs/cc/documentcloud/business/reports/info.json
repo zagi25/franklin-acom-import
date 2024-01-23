@@ -1,0 +1,590 @@
+{
+  "https://www.adobe.com/documentcloud/business/reports/acrobat-pro-checklist-article.html": {
+    "00-4": "spacer",
+    "01-4": "marqueefaas",
+    "02-4": "textwithform"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/acrobat-pro-do-it-all-in-one.html": {
+    "00-4": "spacer",
+    "01-4": "marqueefaas",
+    "02-4": "textwithform"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/acrobat-pro-solves-business-challenges-brief.html": {
+    "00-4": "spacer",
+    "01-4": "marqueefaas",
+    "02-4": "textwithform"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/acrobat-sign-and-microsoft.html": {
+    "00-4": "spacer",
+    "01-4": "marqueefaas",
+    "02-4": "textwithform"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/acrobat-sign-close-deals-open-doors.html": {
+    "00-4": "spacer",
+    "01-4": "marqueefaas",
+    "02-4": "textwithform"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/acrobat-sign-power-of-connection.html": {
+    "00-4": "spacer",
+    "01-4": "marqueefaas",
+    "02-4": "textwithform"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/acrobat-sign-salesforce-together-at-last.html": {
+    "00-4": "spacer",
+    "01-4": "marqueefaas",
+    "02-4": "textwithform"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/adobe-acrobat-document-workflow-automation.html": {
+    "00-4": "spacer",
+    "01-4": "marqueefaas",
+    "02-4": "textwithform"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/adobe-acrobat-intelligent-pdfs.html": {
+    "00-4": "spacer",
+    "01-4": "marqueefaas",
+    "02-4": "textwithform"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/adobe-acrobat-secure-working.html": {
+    "00-4": "spacer",
+    "01-4": "marqueefaas",
+    "02-4": "textwithform"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/adobe-acrobat-microsoft365.html": {
+    "00-4": "spacer",
+    "01-4": "marqueefaas",
+    "02-4": "textwithform"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/adobe-acrobat-sign-close-gaps-in-digital-first-sales-strategy.html": {
+    "00-4": "spacer",
+    "01-4": "marqueefaas",
+    "02-4": "textwithform",
+    "03-4": "textlegal"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/adobe-acrobat-winning-workflows-for-evolving-digital-workplace.html": {
+    "00-4": "spacer",
+    "01-4": "marqueefaas",
+    "02-4": "textwithform"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/adobe-acrobat-working-together.html": {
+    "00-4": "spacer",
+    "01-4": "marqueefaas",
+    "02-4": "textwithform"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/adobe-digital-trends-2023.html": {
+    "00-4": "spacer",
+    "01-4": "marqueefaas",
+    "02-4": "textwithform",
+    "03-4": "textlegal"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/all-in-one-solution-video.html": {
+    "00-4": "spacer",
+    "01-4": "marqueefaas",
+    "02-4": "textwithform"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/adobe-microsoft-advanced-workflows-report.html": {
+    "00-4": "spacer",
+    "01-4": "marqueefaas",
+    "02-4": "textwithform"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/dc451-hr-research-brief.html": {
+    "00-4": "spacer",
+    "01-4": "marqueefaas",
+    "02-4": "textwithform"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/adobe-microsoft-forbes-report-digital-workflows.html": {
+    "00-4": "spacer",
+    "01-4": "marqueefaas",
+    "02-4": "textwithform",
+    "03-4": "textlegal"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/dc451-research.html": {
+    "00-4": "spacer",
+    "01-4": "marqueefaas",
+    "02-4": "textwithform"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/do-business-faster-with-adobe-acrobat-pro.html": {
+    "00-4": "spacer",
+    "01-4": "marqueefaas",
+    "02-4": "textwithform"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/drive-productivity-with-adobe-acrobat-microsoft.html": {
+    "00-4": "spacer",
+    "01-4": "marqueefaas",
+    "02-4": "textwithform"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/forrester-digital-experiences.html": {
+    "00-4": "spacer",
+    "01-4": "marqueefaas",
+    "02-4": "textwithform"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/forrester-hr-report.html": {
+    "00-4": "spacer",
+    "01-4": "marqueefaas",
+    "02-4": "textwithform",
+    "03-4": "textlegal"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/forrester-sales.html": {
+    "00-4": "spacer",
+    "01-4": "marqueefaas",
+    "02-4": "textwithform",
+    "03-4": "textlegal"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/human-first-approach-hybrid-work-video.html": {
+    "00-4": "spacer",
+    "01-4": "marqueefaas",
+    "02-4": "textwithform"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/how-acrobat-sign-helps-sales-teams-win.html": {
+    "00-4": "spacer",
+    "01-4": "marqueefaas",
+    "02-4": "textwithform"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/keep-business-moving.html": {
+    "00-4": "spacer",
+    "01-4": "marqueefaas",
+    "02-4": "textwithform",
+    "03-4": "textlegal"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/msft-adobe-ebook.html": {
+    "00-4": "spacer",
+    "01-4": "marqueefaas",
+    "02-4": "textwithform"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/microsoft-forrester-tei.html": {
+    "00-4": "spacer",
+    "01-4": "marqueefaas",
+    "02-4": "textwithform"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/standardize-on-adobe-acrobat.html": {
+    "00-4": "spacer",
+    "01-4": "marqueefaas",
+    "02-4": "textwithform"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/the-future-of-time.html": {
+    "00-4": "spacer",
+    "01-4": "marqueefaas",
+    "02-4": "textwithform",
+    "03-4": "textlegal"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/tei-report.html": {
+    "00-4": "spacer",
+    "01-4": "marqueefaas",
+    "02-4": "textwithform",
+    "03-4": "textlegal"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/top-8-digital-doc-advancements.html": {
+    "00-4": "spacer",
+    "01-4": "marqueefaas",
+    "02-4": "textwithform",
+    "03-4": "textlegal"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/total-economic-impact-acrobat.html": {
+    "00-4": "spacer",
+    "01-4": "marqueefaas",
+    "02-4": "textwithform"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/total-economic-impact-digital-to-digital.html": {
+    "00-4": "spacer",
+    "01-4": "marqueefaas",
+    "02-4": "textwithform"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/adobe-acrobat-sign-salesforce-product-tour.html": {
+    "00-4": "spacer",
+    "01-4": "marqueefaas",
+    "02-4": "textwithform",
+    "03-4": "textlegal"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/adobe-acrobat-sign-workday-onboarding-video.html": {
+    "00-4": "spacer",
+    "01-4": "marqueefaas",
+    "02-4": "textwithform",
+    "03-4": "textlegal"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/pfeiffer-infographic-adobe-acrobat.html": {
+    "00-4": "spacer",
+    "01-4": "spacer",
+    "02-4": "marqueefaas",
+    "03-4": "textwithform",
+    "04-4": "textlegal"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/adobe-acrobat-pfeiffer-roi-guide.html": {
+    "00-4": "spacer",
+    "01-4": "spacer",
+    "02-4": "marqueefaas",
+    "03-4": "textwithform",
+    "04-4": "textlegal"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/adobe-acrobat-sign-acrobat-pro-comparison.html": {
+    "00-4": "spacer",
+    "01-4": "marqueefaas",
+    "02-4": "textwithform",
+    "03-4": "textlegal"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/digitize-hr-with-adobe-acrobat-sign.html": {
+    "00-4": "spacer",
+    "01-4": "marqueefaas",
+    "02-4": "textwithform",
+    "03-4": "textlegal"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/acrobat-sign-top-tips-digital-hr-experiences.html": {
+    "00-4": "spacer",
+    "01-4": "spacer",
+    "02-4": "marqueefaas",
+    "03-4": "textwithform",
+    "04-4": "textlegal"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/adobe-acrobat-sign-automated-workflow-simulation.html": {
+    "00-4": "spacer",
+    "01-4": "marqueefaas",
+    "02-4": "textwithform",
+    "03-4": "textlegal"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/adobe-acrobat-sign-simulation.html": {
+    "00-4": "spacer",
+    "01-4": "marqueefaas",
+    "02-4": "textwithform",
+    "03-4": "textlegal"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/adobe-acrobat-boost-workflow-efficiency.html": {
+    "00-4": "spacer",
+    "01-4": "marqueefaas",
+    "02-4": "textwithform",
+    "03-4": "textlegal"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/adobe-acrobat-harvard-business-review.html": {
+    "00-4": "spacer",
+    "01-4": "marqueefaas",
+    "02-4": "textwithform",
+    "03-4": "textlegal"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/adobe-acrobat-document-security-hybrid-work.html": {
+    "00-4": "spacer",
+    "01-4": "spacer",
+    "02-4": "marqueefaas",
+    "03-4": "textwithform",
+    "04-4": "textlegal"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/adobe-acrobat-microsoft-it-investment.html": {
+    "00-4": "spacer",
+    "01-4": "marqueefaas",
+    "02-4": "textwithform",
+    "03-4": "textlegal"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/adobe-acrobat-leading-people-first-e-book.html": {
+    "00-4": "spacer",
+    "01-4": "marqueefaas",
+    "02-4": "textwithform",
+    "03-4": "textlegal"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/acrobat-sign-more-selling-less-chasing.html": {
+    "00-4": "spacer",
+    "01-4": "marqueefaas",
+    "02-4": "textwithform",
+    "03-4": "textlegal"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/acrobat-pro-checklist-article-confirmation.html": {
+    "00-4": "spacer",
+    "01-4": "textintro",
+    "02-4": "halfcards",
+    "03-8": "iconblockfragmentred"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/acrobat-pro-do-it-all-in-one-confirmation.html": {
+    "00-4": "spacer",
+    "01-4": "textintro",
+    "02-4": "halfcards",
+    "03-4": "iconblockfragmentred"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/acrobat-pro-solves-business-challenges-brief-confirmation.html": {
+    "00-4": "spacer",
+    "01-4": "textintro",
+    "02-4": "halfcards",
+    "03-4": "iconblockfragmentred"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/acrobat-sign-and-microsoft-confirmation.html": {
+    "00-4": "spacer",
+    "01-4": "textintro",
+    "02-4": "halfcards",
+    "03-4": "iconblockfragmentpurple"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/acrobat-sign-close-deals-open-doors-confirmation.html": {
+    "00-4": "spacer",
+    "01-4": "textintro",
+    "02-4": "halfcards",
+    "03-4": "iconblockfragmentpurple"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/acrobat-sign-more-selling-less-chasing-confirmation.html": {
+    "00-4": "spacer",
+    "01-4": "textintro",
+    "02-4": "halfcards",
+    "03-4": "iconblockfragmentpurple"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/acrobat-sign-power-of-connection-confirmation.html": {
+    "00-4": "spacer",
+    "01-4": "textintro",
+    "02-4": "halfcards",
+    "03-4": "iconblockfragmentpurple"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/acrobat-sign-salesforce-together-at-last-confirmation.html": {
+    "00-4": "spacer",
+    "01-4": "textintro",
+    "02-4": "halfcards",
+    "03-4": "iconblockfragmentpurple"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/acrobat-sign-top-tips-digital-hr-experiences-confirmation.html": {
+    "00-4": "spacer",
+    "01-4": "textintro",
+    "02-4": "spacer",
+    "03-4": "halfcards",
+    "04-4": "iconblockfragmentred",
+    "05-4": "textlegal"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/adobe-acrobat-boost-workflow-efficiency-confirmation.html": {
+    "00-4": "spacer",
+    "01-4": "textintro",
+    "02-4": "text",
+    "03-4": "halfcards",
+    "04-4": "iconblockfragmentred",
+    "05-4": "textlegal"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/adobe-acrobat-document-security-hybrid-work-confirmation.html": {
+    "00-4": "spacer",
+    "01-4": "textintro",
+    "02-4": "spacer",
+    "03-4": "halfcards",
+    "04-4": "iconblockfragmentred",
+    "05-4": "textlegal"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/adobe-acrobat-document-workflow-automation-confirmation.html": {
+    "00-4": "spacer",
+    "01-4": "textintro",
+    "02-4": "halfcards",
+    "03-4": "iconblockfragmentred"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/adobe-acrobat-harvard-business-review-confirmation.html": {
+    "00-4": "spacer",
+    "01-4": "textintro",
+    "02-4": "text",
+    "03-4": "spacer",
+    "04-4": "halfcards",
+    "05-4": "iconblockfragmentred",
+    "06-4": "textlegal"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/adobe-acrobat-intelligent-pdfs-confirmation.html": {
+    "00-4": "spacer",
+    "01-4": "textintro",
+    "02-4": "halfcards",
+    "03-4": "iconblockfragmentred"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/adobe-acrobat-microsoft-it-investment-confirmation.html": {
+    "00-4": "spacer",
+    "01-4": "textintro",
+    "02-4": "halfcards",
+    "03-4": "iconblockfragmentred"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/adobe-acrobat-microsoft365-confirmation.html": {
+    "00-4": "spacer",
+    "01-4": "textintro",
+    "02-4": "halfcards",
+    "03-4": "iconblockfragmentred"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/adobe-acrobat-pfeiffer-roi-guide-confirmation.html": {
+    "00-4": "spacer",
+    "01-4": "textintro",
+    "02-4": "spacer",
+    "03-4": "halfcards",
+    "04-4": "iconblockfragmentred",
+    "05-4": "textlegal"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/adobe-acrobat-secure-working-confirmation.html": {
+    "00-4": "spacer",
+    "01-4": "textintro",
+    "02-4": "halfcards",
+    "03-4": "iconblockfragmentpurple"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/adobe-acrobat-sign-close-gaps-in-digital-first-sales-strategy-confirmation.html": {
+    "00-4": "spacer",
+    "01-4": "textintro",
+    "02-4": "halfcards",
+    "03-4": "iconblockfragmentred",
+    "04-4": "textlegal"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/adobe-acrobat-sign-salesforce-product-tour-confirmation.html": {
+    "00-4": "spacer",
+    "01-4": "textintro",
+    "02-4": "halfcards",
+    "03-4": "iconblockfragmentpurple",
+    "04-4": "textlegal"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/adobe-acrobat-sign-simulation-confirmation.html": {
+    "00-4": "spacer",
+    "01-4": "textintro",
+    "02-4": "text",
+    "03-4": "halfcards",
+    "04-4": "iconblockfragmentpurple",
+    "05-4": "textlegal"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/adobe-acrobat-sign-workday-onboarding-video-confirmation.html": {
+    "00-4": "spacer",
+    "01-4": "textintro",
+    "02-4": "halfcards",
+    "03-4": "iconblockfragmentpurple",
+    "04-4": "textlegal"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/adobe-acrobat-winning-workflows-for-evolving-digital-workplace-confirmation.html": {
+    "00-4": "spacer",
+    "01-4": "textintro",
+    "02-4": "halfcards",
+    "03-4": "iconblockfragmentred"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/adobe-acrobat-working-together-confirmation.html": {
+    "00-4": "spacer",
+    "01-4": "textintro",
+    "02-4": "halfcards",
+    "03-4": "iconblockfragmentred"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/adobe-digital-trends-2023-confirmation.html": {
+    "00-4": "spacer",
+    "01-4": "textintro",
+    "02-4": "halfcards",
+    "03-4": "iconblockfragmentred",
+    "04-4": "textlegal"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/adobe-microsoft-advanced-workflows-report-confirmation.html": {
+    "00-4": "spacer",
+    "01-4": "textintro",
+    "02-4": "halfcards",
+    "03-4": "iconblockfragmentred"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/adobe-microsoft-forbes-report-digital-workflows-confirmation.html": {
+    "00-4": "spacer",
+    "01-4": "textintro",
+    "02-4": "halfcards",
+    "03-4": "iconblockfragmentred",
+    "04-4": "textlegal"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/all-in-one-solution-video-confirmation.html": {
+    "00-4": "spacer",
+    "01-4": "textintro",
+    "02-4": "halfcards",
+    "03-4": "iconblockfragmentred"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/dc451-hr-research-brief-confirmation.html": {
+    "00-4": "spacer",
+    "01-4": "textintro",
+    "02-4": "halfcards",
+    "03-4": "iconblockfragmentpurple"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/dc451-research-confirmation.html": {
+    "00-4": "textintro",
+    "01-4": "halfcards"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/digitize-hr-with-adobe-acrobat-sign-confirmation.html": {
+    "00-4": "spacer",
+    "01-4": "textintro",
+    "02-4": "halfcards",
+    "03-4": "iconblockfragmentpurple",
+    "04-4": "textlegal"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/do-business-faster-with-adobe-acrobat-pro-confirmation.html": {
+    "00-4": "spacer",
+    "01-4": "textintro",
+    "02-4": "halfcards",
+    "03-4": "iconblockfragmentred"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/drive-productivity-with-adobe-acrobat-microsoft-confirmation.html": {
+    "00-4": "spacer",
+    "01-4": "textintro",
+    "02-4": "halfcards",
+    "03-4": "iconblockfragmentred"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/forrester-digital-experiences-confirmation.html": {
+    "00-4": "spacer",
+    "01-4": "textintro",
+    "02-4": "halfcards",
+    "03-4": "iconblockfragmentpurple"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/forrester-hr-report-confirmation.html": {
+    "00-4": "spacer",
+    "01-4": "textintro",
+    "02-4": "halfcards",
+    "03-4": "iconblockfragmentpurple"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/forrester-sales-confirmation.html": {
+    "00-4": "spacer",
+    "01-4": "textintro",
+    "02-4": "halfcards",
+    "03-4": "iconblockfragmentpurple"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/how-acrobat-sign-helps-sales-teams-win-confirmation.html": {
+    "00-4": "spacer",
+    "01-4": "textintro",
+    "02-4": "halfcards",
+    "03-4": "iconblockfragmentpurple"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/human-first-approach-hybrid-work-video-confirmation.html": {
+    "00-4": "spacer",
+    "01-4": "textintro",
+    "02-4": "halfcards",
+    "03-4": "iconblockfragmentred"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/keep-business-moving-confirmation.html": {
+    "00-4": "spacer",
+    "01-4": "textintro",
+    "02-4": "halfcards",
+    "03-4": "iconblockfragmentpurple"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/microsoft-forrester-tei-confirmation.html": {
+    "00-4": "spacer",
+    "01-4": "textintro",
+    "02-4": "halfcards",
+    "03-4": "iconblockfragmentpurple"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/msft-adobe-ebook-confirmation.html": {
+    "00-4": "textintro",
+    "01-4": "halfcards"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/pfeiffer-infographic-adobe-acrobat-confirmation.html": {
+    "00-4": "spacer",
+    "01-4": "textintro",
+    "02-4": "spacer",
+    "03-4": "halfcards",
+    "04-4": "iconblockfragmentred",
+    "05-4": "textlegal"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/standardize-on-adobe-acrobat-confirmation.html": {
+    "00-4": "spacer",
+    "01-4": "textintro",
+    "02-4": "halfcards",
+    "03-4": "iconblockfragmentred"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/tei-report-confirmation.html": {
+    "00-4": "textintro",
+    "01-4": "halfcards"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/the-future-of-time-confirmation.html": {
+    "00-4": "spacer",
+    "01-4": "textintro",
+    "02-4": "halfcards",
+    "03-4": "iconblockfragmentpurple",
+    "04-4": "textlegal"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/top-8-digital-doc-advancements-confirmation.html": {
+    "00-4": "spacer",
+    "01-4": "textintro",
+    "02-4": "halfcards",
+    "03-4": "iconblockfragmentpuprle",
+    "04-4": "textlegal"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/total-economic-impact-acrobat-confirmation.html": {
+    "00-4": "spacer",
+    "01-4": "textintro",
+    "02-4": "halfcards",
+    "03-4": "iconblockfragmentpurple"
+  },
+  "https://www.adobe.com/documentcloud/business/reports/total-economic-impact-digital-to-digital-confirmation.html": {
+    "00-4": "spacer",
+    "01-4": "textintro",
+    "02-4": "halfcards",
+    "03-4": "iconblockfragmentpurple"
+  }
+}

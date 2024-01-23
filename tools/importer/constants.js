@@ -37,4 +37,12 @@ export default {
   media: 'media',
   assurance: 'assurance',
   marqueeVideo: 'marqueevideo',
+  textWithForm: 'textwithform',
+  actionItemGroup: 'actionitemgroup',
+  marqueeFaas: 'marqueefaas',
+  textIntro: 'textintro',
+  textLegal: 'textlegal',
+  halfCards: 'halfcards',
+  iconBlockFragmentRed: 'iconblockfragmentred',
+  iconBlockFragmentPurple: 'iconblockfragmentpurple',
 };

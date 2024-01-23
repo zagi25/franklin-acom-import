@@ -32,7 +32,7 @@ export default function createIconBlockGroup(block, document){
         wrapper.appendChild(newCta);
         iconCta.replaceWith(wrapper);
       }
-      const cells = [['icon-block (vertical, center, medium, xs spacing']];
+      const cells = [['icon-block (vertical, center, medium, xs spacing)']];
       const iconBlockImage = iconBlock.querySelector('img');
       if (iconBlockImage && iconBlockImage.parentElement?.tagName === 'a') {
         let imageSrc = imageElement?.getAttribute('src');
@@ -60,9 +60,9 @@ export default function createIconBlockGroup(block, document){
   }
 
 
-  // if(tables.length === 2){
-  //   style = 'two up, grid width 8';
-  // }
+  if(tables.length === 2){
+    style = 'two up, grid width 8';
+  }
 
 
   const sectionMetaDataTable = WebImporter.DOMUtils.createTable(
@@ -92,7 +92,7 @@ export default function createIconBlockGroup(block, document){
   }
 
   if(text || cta) block.before(document.createElement('hr'));
-  block.after(document.createElement('hr'));
+  block.before(document.createElement('hr'));
   block.after(sectionMetaDataTable);
   block.replaceWith(...tables);
 

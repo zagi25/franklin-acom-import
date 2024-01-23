@@ -1,0 +1,250 @@
+{
+    "https://www.adobe.com/documentcloud/integrations/adobe-microsoft-solutions.html": {
+        "00-4": "uknown",
+        "01-4": "uknown",
+        "02-4": "uknown",
+        "03-4": "uknown",
+        "04-4": "uknown",
+        "05-4": "uknwon",
+        "06-4": "uknwon",
+        "07-4": "uknwon",
+        "08-4": "uknown"
+    },
+    "https://www.adobe.com/documentcloud/integrations/apttus.html": {
+        "00-4": "iconblock",
+        "01-4": "divider",
+        "02-4": "media",
+        "03-4": "divider",
+        "04-4": "aside",
+        "05-4": "assurance",
+        "06-4": "iconblockgroup",
+        "07-4": "iconblockgroup",
+        "08-4": "iconblockfragment"
+    },
+    "https://www.adobe.com/documentcloud/integrations/box.html": {
+        "00-4": "iconblock",
+        "01-4": "divider",
+        "02-4": "media",
+        "03-4": "assurance",
+        "04-4": "iconblock",
+        "05-4": "iconblockfragment"
+    },
+    "https://www.adobe.com/documentcloud/integrations/conga.html": {
+        "00-4": "iconblock",
+        "01-4": "divider",
+        "02-4": "media",
+        "03-4": "divider",
+        "04-4": "iconblock",
+        "05-4": "divider",
+        "06-4": "aside",
+        "07-4": "assurance",
+        "08-4": "iconblockgroup",
+        "09-4": "iconblockfragment"
+    },
+    "https://www.adobe.com/documentcloud/integrations/dropbox.html": {
+        "00-4": "iconblock",
+        "01-4": "divider",
+        "02-4": "media",
+        "03-4": "assurance",
+        "04-4": "iconblockfragment"
+    },
+    "https://www.adobe.com/documentcloud/integrations/google-drive.html": {
+        "00-4": "iconblock",
+        "01-4": "divider",
+        "02-4": "media",
+        "03-4": "assurance",
+        "04-4": "iconblockfragment"
+    },
+    "https://www.adobe.com/documentcloud/integrations/icertis.html": {
+        "00-4": "iconblock",
+        "01-4": "longformtext",
+        "02-4": "media",
+        "03-4": "longformtext",
+        "04-4": "iconblockfragment"
+    },
+    "https://www.adobe.com/documentcloud/integrations/isv-partner-program.html": {
+        "00-4": "marquee",
+        "01-4": "uknown",
+        "02-4": "uknown",
+        "03-4": "uknown",
+        "04-4": "uknown",
+        "05-4": "uknown"
+    },
+    "https://www.adobe.com/documentcloud/integrations/mastercard-send.html": {
+        "00-4": "iconblock",
+        "01-4": "media",
+        "02-4": "longformtext",
+        "03-4": "media",
+        "04-4": "iconblock"
+    },
+    "https://www.adobe.com/documentcloud/integrations/microsoft-dynamics-365-for-talent.html": {
+        "00-4": "iconblock",
+        "01-4": "media",
+        "02-4": "divider",
+        "03-4": "aside",
+        "04-4": "assurance",
+        "05-4": "iconblockgroup",
+        "06-4": "iconblockfragment"
+    },
+    "https://www.adobe.com/documentcloud/integrations/microsoft-dynamics-365.html": {
+        "00-4": "iconblock",
+        "01-4": "divider",
+        "02-4": "media",
+        "03-4": "divider",
+        "04-4": "aside",
+        "05-4": "aside",
+        "06-4": "assurance",
+        "07-4": "iconblockgroup",
+        "08-4": "iconblockfragment"
+    },
+    "https://www.adobe.com/documentcloud/integrations/microsoft-dynamics-3651.html": {
+        "00-4": "spacer",
+        "01-4": "iconblock",
+        "02-4": "media",
+        "03-4": "aside",
+        "04-4": "assurance",
+        "05-4": "iconblockgroup",
+        "06-4": "iconblockfragment"
+    },
+    "https://www.adobe.com/documentcloud/integrations/microsoft-office-365.html": {
+        "00-4": "marquee",
+        "01-6": "unkown",
+        "02-6": "unkown",
+        "03-6": "unkown",
+        "04-6": "unkown",
+        "05-6": "unkown",
+        "06-6": "unkown"
+    },
+    "https://www.adobe.com/documentcloud/integrations/microsoft-onedrive.html": {
+        "00-4": "iconblock",
+        "01-4": "media",
+        "02-4": "assurance",
+        "03-4": "iconblockgroup",
+        "04-4": "iconblockfragment"
+    },
+    "https://www.adobe.com/documentcloud/integrations/microsoft-powerapps-flow.html": {
+        "00-4": "iconblock",
+        "01-4": "divider",
+        "02-4": "media",
+        "03-4": "divider",
+        "04-4": "aside",
+        "05-4": "assurance",
+        "06-4": "longformtext",
+        "07-4": "iconblockfragment"
+    },
+    "https://www.adobe.com/documentcloud/integrations/microsoft-search.html": {
+        "00-4": "marquee",
+        "01-4": "unknown",
+        "02-4": "unknown",
+        "03-4": "unknown",
+        "04-4": "unknown",
+        "05-4": "unknown",
+        "06-4": "unknown",
+        "07-4": "unknown",
+        "08-4": "unknown",
+        "09-4": "unknown",
+        "10-4": "unknown"
+    },
+    "https://www.adobe.com/documentcloud/integrations/microsoft-sharepoint.html": {
+        "00-4": "iconblock",
+        "01-4": "divider",
+        "02-4": "media",
+        "03-4": "media",
+        "04-4": "divider",
+        "05-4": "media",
+        "06-4": "assurance",
+        "07-4": "iconblockgroup",
+        "08-4": "iconblockfragment"
+    },
+    "https://www.adobe.com/documentcloud/integrations/microsoft-teams.html": {
+        "00-4": "marquee",
+        "01-4": "unknown",
+        "02-4": "unknown",
+        "03-4": "unknown",
+        "04-4": "unknown",
+        "05-4": "unknown"
+    },
+    "https://www.adobe.com/documentcloud/integrations/microsoft.html": {
+        "00-4": "marquee",
+        "01-4": "unkown",
+        "02-4": "unkown",
+        "03-4": "unkown",
+        "04-4": "unkown",
+        "05-4": "unkown",
+        "06-4": "unkown",
+        "07-4": "unkown",
+        "08-4": "unkown",
+        "09-4": "unkown",
+        "10-4": "unkown"
+    },
+    "https://www.adobe.com/documentcloud/integrations/netsuite.html": {
+        "00-4": "iconblock",
+        "01-4": "divider",
+        "02-4": "media",
+        "03-4": "longformtext",
+        "04-4": "iconblockgroup",
+        "05-4": "iconblockgroup",
+        "06-4": "iconblockfragment"
+    },
+    "https://www.adobe.com/documentcloud/integrations/notarize.html": {
+        "00-4": "marquee",
+        "01-10": "unknown",
+        "02-10": "unknown",
+        "03-10": "unknown",
+        "04-10": "unknown",
+        "05-10": "unknown"
+    },
+    "https://www.adobe.com/documentcloud/integrations/salesforce.html": {
+        "00-4": "uknown",
+        "01-4": "unknown",
+        "02-4": "unknown",
+        "03-4": "unknown",
+        "04-4": "unknown",
+        "05-4": "unknown",
+        "06-4": "unknown",
+        "07-4": "unknown",
+        "08-4": "unknown",
+        "09-4": "unknown"
+    },
+    "https://www.adobe.com/documentcloud/integrations/sap-ariba.html": {
+        "00-4": "iconblock",
+        "01-4": "divider",
+        "02-4": "media",
+        "03-4": "assurance",
+        "04-4": "iconblockfragment"
+    },
+    "https://www.adobe.com/documentcloud/integrations/sap-successfactors.html": {
+        "00-4": "iconblock",
+        "01-4": "divider",
+        "02-4": "media",
+        "03-4": "assurance",
+        "04-4": "iconblock",
+        "05-4": "iconblockfragment"
+    },
+    "https://www.adobe.com/documentcloud/integrations/servicenow.html": {
+        "00-4": "iconblock",
+        "01-4": "divider",
+        "02-4": "media",
+        "03-4": "media",
+        "04-4": "assurance",
+        "05-4": "iconblock",
+        "06-4": "iconblockfragment"
+    },
+    "https://www.adobe.com/documentcloud/integrations/workday.html": {
+        "00-4": "iconblock",
+        "01-4": "divider",
+        "02-4": "media",
+        "03-4": "divider",
+        "04-4": "media",
+        "05-4": "assurance",
+        "06-4": "iconblockgroup",
+        "07-4": "iconblockfragment"
+    },
+    "https://www.adobe.com/documentcloud/integrations/xero.html": {
+        "00-4": "iconblock",
+        "01-4": "divider",
+        "02-4": "media",
+        "03-4": "assurance",
+        "04-4": "iconblockfragment"
+    }
+}

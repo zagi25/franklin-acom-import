@@ -1,0 +1,247 @@
+{
+    "https://www.adobe.com/acrobat/how-to/create-pdf.html": {
+        "00-4": "marqueeright",
+        "01-4": "aside",
+        "02-4": "iconblockgroup",
+        "03-4": "iconblockgroup",
+        "04-4": "howtomaybe",
+        "05-4": "marqueedefault",
+        "06-4": "longformtext",
+        "07-4": "pricesmaybe"
+    },
+    "https://www.adobe.com/acrobat/how-to/delete-pages-from-pdf.html": {
+        "00-4": "marqueeright",
+        "01-4": "aside",
+        "02-4": "iconblockgroup",
+        "03-4": "howtomaybe",
+        "04-4": "marqueedefault",
+        "05-4": "longformtext",
+        "06-4": "pricesmaybe"
+    },
+    "https://www.adobe.com/acrobat/how-to/unlock-pdf.html": {
+        "00-4": "marqueeright",
+        "01-4": "aside",
+        "02-4": "iconblockgroup",
+        "03-4": "howtomaybe",
+        "04-4": "unknown",
+        "05-4": "longformtext",
+        "06-4": "pricesmaybe"
+    },
+    "https://www.adobe.com/acrobat/how-to/split-pdf-pages.html": {
+        "00-4": "marqueeright",
+        "01-4": "aside",
+        "02-4": "iconblockgroup",
+        "03-4": "iconblockgroup",
+        "04-4": "howtomaybe",
+        "05-4": "marqueedefault",
+        "06-4": "longformtext",
+        "07-4": "pricesmaybe"
+    },
+    "https://www.adobe.com/acrobat/how-to/annotate-pdf-online.html": {
+        "00-4": "marqueeright",
+        "01-4": "aside",
+        "02-4": "iconblockgroup",
+        "03-4": "iconblockgroup",
+        "04-4": "howtomaybe",
+        "05-4": "unknown",
+        "06-4": "longformtext",
+        "07-4": "pricesmaybe"
+    },
+    "https://www.adobe.com/acrobat/how-to/compare-two-pdf-files.html": {
+        "00-4": "marqueeright",
+        "01-4": "aside",
+        "02-4": "iconblockgroup",
+        "03-4": "iconblockgroup",
+        "04-4": "howtomaybe",
+        "05-4": "unknown",
+        "06-4": "longformtext",
+        "07-4": "pricesmaybe"
+    },
+    "https://www.adobe.com/acrobat/how-to/convert-html-to-pdf.html": {
+        "00-4": "marqueeright",
+        "01-4": "aside",
+        "02-4": "iconblockgroup",
+        "03-4": "howtomaybe",
+        "04-4": "unknown",
+        "05-4": "longformtext",
+        "06-4": "pricesmaybe"
+    },
+    "https://www.adobe.com/acrobat/how-to/convert-jpeg-tiff-scan-to-pdf.html": {
+        "00-4": "marqueeright",
+        "01-4": "aside",
+        "02-4": "iconblockgroup",
+        "03-4": "iconblockgroup",
+        "04-4": "howtomaybe",
+        "05-4": "marqueedefault",
+        "06-4": "longformtext",
+        "07-4": "pricesmaybe"
+    },
+    "https://www.adobe.com/acrobat/how-to/convert-pdf-to-jpg.html": {
+        "00-4": "marqueeright",
+        "01-4": "aside",
+        "02-4": "iconblockgroup",
+        "03-4": "howtomaybe",
+        "04-4": "marqueedefault",
+        "05-4": "longformtext",
+        "06-4": "pricesmaybe"
+    },
+    "https://www.adobe.com/acrobat/how-to/convert-ppt-to-pdf.html": {
+        "00-4": "marqueeright",
+        "01-4": "aside",
+        "02-4": "iconblockgroup",
+        "03-4": "iconblockgroup",
+        "04-4": "howtomaybe",
+        "05-4": "marqueedefault",
+        "06-4": "longformtext",
+        "07-4": "pricesmaybe"
+    },
+    "https://www.adobe.com/acrobat/how-to/convert-word-to-pdf.html": {
+        "00-4": "marqueeright",
+        "01-4": "aside",
+        "02-4": "iconblockgroup",
+        "03-4": "iconblockgroup",
+        "04-4": "howtomaybe",
+        "05-4": "marqueedefault",
+        "06-4": "longformtext",
+        "07-4": "pricesmaybe"
+    },
+    "https://www.adobe.com/acrobat/how-to/create-fillable-pdf-forms-creator.html": {
+        "00-4": "marqueeright",
+        "01-4": "aside",
+        "02-4": "iconblockgroup",
+        "03-4": "iconblockgroup",
+        "04-4": "howtomaybe",
+        "05-4": "unknown",
+        "06-4": "longformtext",
+        "07-4": "pricesmaybe"
+    },
+    "https://www.adobe.com/acrobat/how-to/electronic-signatures-online-e-signatures.html": {
+        "00-4": "marqueeright",
+        "01-4": "aside",
+        "02-4": "iconblockgroup",
+        "03-4": "howtomaybe",
+        "04-4": "text",
+        "05-4": "marqueedefault",
+        "06-4": "longformtext",
+        "07-4": "pricesmaybe"
+    },
+    "https://www.adobe.com/acrobat/how-to/fill-sign-pdf-forms-electronically.html": {
+        "00-4": "marqueeright",
+        "01-4": "aside",
+        "02-4": "iconblockgroup",
+        "03-4": "iconblockgroup",
+        "04-4": "howtomaybe",
+        "05-4": "text",
+        "06-4": "marqueedefault",
+        "07-4": "longformtext",
+        "08-4": "pricesmaybe"
+    },
+    "https://www.adobe.com/acrobat/how-to/merge-combine-pdf-files-online.html": {
+        "00-4": "marqueeright",
+        "01-4": "aside",
+        "02-4": "iconblockgroup",
+        "03-4": "iconblockgroup",
+        "04-4": "howtomaybe",
+        "05-4": "marqueedefault",
+        "06-4": "longformtext",
+        "07-4": "pricesmaybe"
+    },
+    "https://www.adobe.com/acrobat/how-to/ocr-software-convert-pdf-to-text.html": {
+        "00-4": "marqueeright",
+        "01-4": "aside",
+        "02-4": "iconblockgroup",
+        "03-4": "iconblockgroup",
+        "04-4": "howtomaybe",
+        "05-4": "unknown",
+        "06-4": "longformtext",
+        "07-4": "pricesmaybe"
+    },
+    "https://www.adobe.com/acrobat/how-to/pdf-editor-pdf-files.html": {
+        "00-4": "marqueeright",
+        "01-4": "aside",
+        "02-4": "iconblockgroup",
+        "03-4": "iconblockgroup",
+        "04-4": "howtomaybe",
+        "05-4": "marqueedefault",
+        "06-4": "longformtext",
+        "07-4": "pricesmaybe"
+    },
+    "https://www.adobe.com/acrobat/how-to/pdf-file-password-permissions.html": {
+        "00-4": "marqueeright",
+        "01-4": "aside",
+        "02-4": "iconblockgroup",
+        "03-4": "iconblockgroup",
+        "04-4": "howtomaybe",
+        "05-4": "marqueedefault",
+        "06-4": "longformtext",
+        "07-4": "pricesmaybe"
+    },
+    "https://www.adobe.com/acrobat/how-to/pdf-to-excel-xlsx-converter.html": {
+        "00-4": "marqueeright",
+        "01-4": "aside",
+        "02-4": "iconblockgroup",
+        "03-4": "iconblockgroup",
+        "04-4": "howtomaybe",
+        "05-4": "marqueedefault",
+        "06-4": "longformtext",
+        "07-4": "pricesmaybe"
+    },
+    "https://www.adobe.com/acrobat/how-to/pdf-to-powerpoint-pptx-converter.html": {
+        "00-4": "marqueeright",
+        "01-4": "aside",
+        "02-4": "iconblockgroup",
+        "03-4": "iconblockgroup",
+        "04-4": "howtomaybe",
+        "05-4": "marqueedefault",
+        "06-4": "longformtext",
+        "07-4": "pricesmaybe"
+    },
+    "https://www.adobe.com/acrobat/how-to/pdf-to-word-doc-converter.html": {
+        "00-4": "marqueeright",
+        "01-4": "spacer",
+        "02-4": "aside",
+        "03-4": "iconblockgroup",
+        "04-4": "iconblockgroup",
+        "05-4": "howtomaybe",
+        "06-4": "marqueedefault",
+        "07-4": "longformtext",
+        "08-4": "pricesmaybe"
+    },
+    "https://www.adobe.com/acrobat/how-to/print-to-pdf.html": {
+        "00-4": "marqueeright",
+        "01-4": "aside",
+        "02-4": "iconblockgroup",
+        "03-4": "howtomaybe",
+        "04-4": "unknown",
+        "05-4": "longformtext",
+        "06-4": "pricesmaybe"
+    },
+    "https://www.adobe.com/acrobat/how-to/rearrange-pdf-pages.html": {
+        "00-4": "marqueeright",
+        "01-4": "aside",
+        "02-4": "iconblockgroup",
+        "03-4": "howtomaybe",
+        "04-4": "marqueedefault",
+        "05-4": "longformtext",
+        "06-4": "pricesmaybe"
+    },
+    "https://www.adobe.com/acrobat/how-to/rotate-pdf.html": {
+        "00-4": "marqueeright",
+        "01-4": "aside",
+        "02-4": "iconblockgroup",
+        "03-4": "howtomaybe",
+        "04-4": "marqueedefault",
+        "05-4": "longformtext",
+        "06-4": "pricesmaybe"
+    },
+    "https://www.adobe.com/acrobat/how-to/share-pdf-online.html": {
+        "00-4": "marqueeright",
+        "01-4": "aside",
+        "02-4": "iconblockgroup",
+        "03-4": "iconblockgroup",
+        "04-4": "howtomaybe",
+        "05-4": "unknown",
+        "06-4": "longformtext",
+        "07-4": "pricesmaybe"
+    }
+}

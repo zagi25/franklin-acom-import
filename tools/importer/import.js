@@ -37,7 +37,7 @@ import createBreadcrumbsBlock from './rules/breadcrumbs.js';
 import createMetadataBlock from './rules/metaData.js';
 import { createCardMetadata } from './rules/metaData.js';
 
-// import createCardsBlock from './rules/creativecloud/file-types/cards.js';
+import createCardsBlock from './rules/creativecloud/file-types/cards.js';
 
 export default {
   /**
@@ -118,7 +118,7 @@ export default {
       const currentOffset = parseInt(id.split('-').pop(), 10);
       latestOffset = latestOffset + offsetDiff + currentOffset - prevOffset;
       const block = body.querySelectorAll('div')[latestOffset];
-      block.setAttribute('data-height', block.clientHeight);
+      block?.setAttribute('data-height', block.clientHeight);
       prevOffset = currentOffset;
       offsetDiff = block.querySelectorAll('div').length + 1;
     });
@@ -167,6 +167,9 @@ export default {
       createDividerBlock,
       mediaBlock,
       createAssuranceFragment,
+      createTextWithFormBlocks,
+      createActionItemGroupBlocks,
+      createHalfCardsBlock,
     } = fetchBlockScript(params.originalURL);
 
     const { body } = document;
@@ -332,6 +335,30 @@ export default {
           break;
         case constants.marqueeVideo:
           createMarqueeVariantsBlocks(block, document, 'video');
+          break;
+        case constants.textWithForm:
+          createTextWithFormBlocks(block, document);
+          break;
+        case constants.actionItemGroup:
+          createActionItemGroupBlocks(block, document);
+          break;
+        case constants.marqueeFaas:
+          createMarqueeVariantsBlocks(block, document, 'faas');
+          break;
+        case constants.textIntro:
+          createTextBlock(block, document, 'intro');
+          break;
+        case constants.textLegal:
+          createTextBlock(block, document, 'legal');
+          break;
+        case constants.halfCards:
+          createHalfCardsBlock(block, document);
+          break;
+        case constants.iconBlockFragmentRed:
+          createIconBlockFragment(block, document, 'red');
+          break;
+        case constants.iconBlockFragmentPurple:
+          createIconBlockFragment(block, document, 'purple');
           break;
         default:
           block.before(document.createElement('hr'));

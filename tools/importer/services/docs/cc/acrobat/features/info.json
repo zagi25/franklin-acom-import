@@ -1,0 +1,95 @@
+{
+    "https://www.adobe.com/acrobat/features/create-pdf.html": {
+        "00-4": "marqueedefault",
+        "01-4": "media",
+        "02-4": "media",
+        "03-4": "media",
+        "04-4": "media",
+        "05-4": "aside",
+        "06-4": "merchblock",
+        "07-4": "aside",
+        "08-4": "merchblock",
+        "09-4": "actionitemgroup"
+    },
+    "https://www.adobe.com/acrobat/features/compare-pdfs.html": {
+        "00-4": "marqueedefault",
+        "01-4": "media",
+        "02-4": "media",
+        "03-4": "media",
+        "04-4": "aside",
+        "05-4": "merchblock",
+        "06-4": "actionitemgroup"
+    },
+    "https://www.adobe.com/acrobat/features/export-pdf.html": {
+        "00-4": "marqueedefault",
+        "01-4": "media",
+        "02-4": "media",
+        "03-4": "aside",
+        "04-4": "merchblock",
+        "05-4": "aside",
+        "06-4": "merchblock",
+        "07-4": "actionitemgroup"
+    },
+    "https://www.adobe.com/acrobat/features/modify-pdfs.html": {
+        "00-4": "marqueedefault",
+        "01-4": "media",
+        "02-4": "media",
+        "03-4": "media",
+        "04-4": "media",
+        "05-4": "media",
+        "06-4": "aside",
+        "07-4": "merchblock",
+        "08-4": "aside",
+        "09-4": "merchblock",
+        "10-4": "actionitemgroup"
+    },
+    "https://www.adobe.com/acrobat/features/organize-pdf.html": {
+        "00-4": "marqueedefault",
+        "01-4": "media",
+        "02-4": "media",
+        "03-4": "media",
+        "04-4": "media",
+        "05-4": "unknown",
+        "06-4": "aside",
+        "07-4": "merchblock",
+        "08-4": "actionitemgroup"
+    },
+    "https://www.adobe.com/acrobat/features/pdf-security.html": {
+        "00-4": "marqueedefault",
+        "01-4": "media",
+        "02-4": "media",
+        "03-4": "media",
+        "04-4": "aside?",
+        "05-4": "aside",
+        "06-4": "aside",
+        "07-4": "merchblock",
+        "08-4": "actionitemgroup"
+    },
+    "https://www.adobe.com/acrobat/features/print-pdf.html": {
+        "00-4": "marqueedefault",
+        "01-4": "media",
+        "02-4": "media",
+        "03-4": "aside",
+        "04-4": "aside",
+        "05-4": "merchblock",
+        "06-4": "actionitemgroup"
+    },
+    "https://www.adobe.com/acrobat/features/share-and-review-pdfs.html": {
+        "00-4": "unknown",
+        "01-4": "aside",
+        "02-4": "aside",
+        "03-4": "merchblock",
+        "04-4": "actionitemgroup"
+    },
+    "https://www.adobe.com/acrobat/features/sign-fillable-pdf-forms.html": {
+        "00-4": "marqueedefault",
+        "01-4": "media",
+        "02-4": "media",
+        "03-4": "media",
+        "04-4": "aside",
+        "05-4": "merchblock",
+        "06-4": "aside",
+        "07-4": "merchblock",
+        "08-4": "actionitemgroup"
+    }
+}

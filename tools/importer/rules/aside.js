@@ -1,16 +1,19 @@
 /* global WebImporter */
 export default function createAsideBlocks(block, document) {
-  const cells = [['aside (notification, small)']];
+  const cells = [['aside (split, small, half, dark, static-links)']];
 
   // background color or background image
   const bgImage = block.querySelector('div[style]')?.getAttribute('style').split('"')[1];
   const bgcolor = block.querySelector('div[data-bgcolor]')?.getAttribute('data-bgcolor');
   let bgImageElement = null;
-  if (bgImage) {
-    bgImageElement = document.createElement('img');
-    bgImageElement.src = bgImage;
-    cells.push([bgImageElement || bgcolor || ' ']);
+  if (bgcolor) {
+    cells.push([bgcolor]);
   }
+  // if (bgImage) {
+  //   bgImageElement = document.createElement('img');
+  //   bgImageElement.src = bgImage;
+  //   cells.push([bgImageElement || bgcolor || ' ']);
+  // }
 
   const contentWrapper = document.createElement('div');
   // Selecting all images
@@ -49,14 +52,14 @@ export default function createAsideBlocks(block, document) {
   const table = WebImporter.DOMUtils.createTable(cells, document);
   table.classList.add('import-table');
 
-  const sectionMetadataCells = [['Section Metadata'], ['style', 'grid width 8, xl spacing ']];
-  const sectionMetaDataTable = WebImporter.DOMUtils.createTable(
-    sectionMetadataCells,
-    document,
-  );
-  sectionMetaDataTable.classList.add('import-table');
+  // const sectionMetadataCells = [['Section Metadata'], ['style', 'grid width 8, xl spacing ']];
+  // const sectionMetaDataTable = WebImporter.DOMUtils.createTable(
+  //   sectionMetadataCells,
+  //   document,
+  // );
+  // sectionMetaDataTable.classList.add('import-table');
 
-  block.after(document.createElement('hr'));
+  block.before(document.createElement('hr'));
   // block.after(sectionMetaDataTable);
   block.replaceWith(table);
 }

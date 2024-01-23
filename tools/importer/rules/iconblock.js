@@ -1,9 +1,18 @@
 /* global WebImporter */
 
-export const createIconBlockFragment = (block, document) => {
+export const createIconBlockFragment = (block, document, type) => {
   const iconBlock = document.createElement('a');
-  iconBlock.href = 'https://main--dc--adobecom.hlx.page/dc-shared/fragments/resources/want-to-know-more';
-  iconBlock.textContent = 'https://main--dc--adobecom.hlx.page/dc-shared/fragments/resources/want-to-know-more';
+
+  if (type === 'red') {
+    iconBlock.href = 'https://main--dc--adobecom.hlx.page/dc-shared/fragments/shared-fragments/acrobat-icon-blocks/red-acrobat-pro-iconblock-agi';
+    iconBlock.textContent = 'https://main--dc--adobecom.hlx.page/dc-shared/fragments/shared-fragments/acrobat-icon-blocks/red-acrobat-pro-iconblock-agi';
+  } else if (type === 'purple') {
+    iconBlock.href = 'https://main--dc--adobecom.hlx.page/dc-shared/fragments/shared-fragments/acrobat-icon-blocks/purple-acrobat-iconblock-know-more';
+    iconBlock.textContent = 'https://main--dc--adobecom.hlx.page/dc-shared/fragments/shared-fragments/acrobat-icon-blocks/purple-acrobat-iconblock-know-more';
+  } else {
+    iconBlock.href = 'https://main--dc--adobecom.hlx.page/dc-shared/fragments/resources/want-to-know-more';
+    iconBlock.textContent = 'https://main--dc--adobecom.hlx.page/dc-shared/fragments/resources/want-to-know-more';
+  }
 
   block.before(document.createElement('hr'));
   block.replaceWith(iconBlock);
