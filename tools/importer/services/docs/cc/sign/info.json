@@ -1,0 +1,25 @@
+{
+  "https://www.adobe.com/sign/contact.html": {
+    "00-22": "longformtext",
+    "01-157": "longformtext",
+    "02-166": "jumpto"
+  },
+  "https://www.adobe.com/sign/features.html": {
+    "00-4": "longformtext",
+    "01-4": "marquee",
+    "02-4": "longformtext",
+    "03-11": "longformtext",
+    "04-11": "longformtext",
+    "05-11": "longformtext",
+    "06-11": "jumpto",
+    "07-11": "longformtext",
+    "08-11": "longformtext",
+    "09-11": "jumpto",
+    "10-11": "jumpto",
+    "11-11": "jumpto",
+    "12-11": "longformtext",
+    "13-11": "longformtext",
+    "14-11": "longformtext",
+    "15-22": "jumpto"
+  }
+}

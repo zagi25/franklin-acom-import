@@ -1,0 +1,17 @@
+{
+  "https://www.adobe.com/sign/compliance/electronic-signature-legality.html": {
+    "00-6": "longformtext",
+    "01-6": "longformtext",
+    "02-6": "jumpto",
+    "03-6": "longformtext",
+    "04-9": "longformtext",
+    "05-9": "longformtext",
+    "06-9": "jumpto",
+    "07-9": "longformtext",
+    "08-9": "jumpto",
+    "09-9": "longformtext",
+    "10-9": "jumpto",
+    "11-9": "longformtext",
+    "12-20": "jumpto"
+  }
+}
