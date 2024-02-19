@@ -1,10 +1,11 @@
 /* global WebImporter */
 export default function createAsideBlocks(block, document) {
-  const cells = [['aside (split, small, half, dark, static-links)']];
+  const cells = [['aside (notification, extra-small, dark)']];
 
   // background color or background image
   const bgImage = block.querySelector('div[style]')?.getAttribute('style').split('"')[1];
-  const bgcolor = block.querySelector('div[data-bgcolor]')?.getAttribute('data-bgcolor');
+  // const bgcolor = block.querySelector('div[data-bgcolor]')?.getAttribute('data-bgcolor');
+  const bgcolor='#95989A ';
   let bgImageElement = null;
   if (bgcolor) {
     cells.push([bgcolor]);
@@ -48,7 +49,7 @@ export default function createAsideBlocks(block, document) {
     contentWrapper.appendChild(link);
   }
 
-  cells.push([imageWrapper, contentWrapper]);
+  cells.push([contentWrapper]);
   const table = WebImporter.DOMUtils.createTable(cells, document);
   table.classList.add('import-table');
 

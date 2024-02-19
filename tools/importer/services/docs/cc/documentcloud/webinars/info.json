@@ -1,0 +1,860 @@
+{
+  "https://www.adobe.com/documentcloud/webinars/3-acrobat-sign-integrations-that-speed-up-your-work.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/5-ways-to-work-smarter-with-adobe-acrobat.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/accelerate-your-contract-process-with-adobe-msft.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/acrobat-use-cases-boosting-productivity.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/adobe-acrobat-sign-seamless-e-signature-management-for-teams-across-your-organization.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/adobe-acrobat-sign-top-5-tips-for-smarter-e-signature-workflows.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/adobe-acrobat-skill-builder-get-started-with-acrobat-dc.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/adobe-document-workflows-to-grow-and-energize-your-business.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/adobe-e-signatures-with-microsoft-teams.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/adobe-integration-with-microsoft-and-salesforce.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/adobe-security-in-the-cloud.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/adobe-sign-and-dynamics.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/adobe-sign-digital-signature-solution.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/adobe-sign-easy-automation-with-microsoft-powerautomate.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/adobe-sign-get-started-with-workflow-designer.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/adobe-sign-helps-you-get-more-done-in-microsoft-teams.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/adobe-sign-how-to-prep-your-documents-for-signature.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/adobe-sign-in-digital-signatures-solutions.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/adobe-sign-sharepoint-integration.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/adobe-sign-skill-builder-in-microsoft-teams.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/adobe-sign-skill-builder-mega-sign-and-web-forms.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/adobe-sign-skill-builder-users-in-multiple-groups.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/adobe-sign-skill-builder-what-s-new-in-adobe-sign.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/adobe-sign-use-case-showcase-featuring-volvo.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/adobe-sign-use-case-showcase-sales.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/adobe-sign-webforms-and-microsoft-sharepoint.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/adobe-sign-with-microsoft-office365.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/asurion-extends-digital-transformation-with-adobe-sign-and-workday.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/back-to-basics-adobe-acrobat-microsoft-integrations.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/close-deals-virtually-with-adobe-sign-and-microsoft-dynamics.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/cloud-signatures-change-contracts.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/creating-reusable-document-templates-with-adobe-sign.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/demystifying-e-signatures.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/document-automation-basics-with-adobe-and-microsoft-power-platform.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/document-automation-made-easy-with-adobe-acrobat-sign.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/driving-roi-with-adobe-sign.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/e-signature-basics-with-adobe-acrobat-sign.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/elevate-your-e-signatures-3tips-for-smarter-workflows-with-adobe-acrobat-sign-solutions.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/eliminate-sales-process-friction.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/fresh-ways-for-faster-e-signature-workflows-with-adobe-acrobat-sign.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/from-echosign-to-adobe-sign.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/get-the-most-out-of-your-microsoft-apps-with-adobe-integrations.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/going-paperless-with-e-sign-and-digital-document-processes.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/going-paperless-with-wipro-and-adobe-sign.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/hr-workflows-with-adobe-and-servicenow.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/impact-of-digital-workflows-in-new-hybrid-workplace.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/introduction-to-adobe-sign-and-adobe-experience-manager-forms.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/keep-business-moving-with-adobe-sign-office_365-sharepoint.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/key-acrobat-workflows-that-keep-every-department-moving.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/microsoft-teams-with-acrobat-and-adobe-sign.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/sign-transform-document-workflows.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/simplify-your-document-workflows-manage-pdfs-from-anywhere-with-adobe-acrobat-pro.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/telework-for-federal-government.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/top-5-pdf-tips-and-tricks-with-adobe-acrobat.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/top-ways-to-move-your-business-faster.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/transformative-document-workflows-and-the-modern-power-of-pdfs.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/transforming-document-and-signature-experiences.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/unleash-the-power-of-adobe-acrobat-across-your-organization.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/unlocking-efficiency-with-adobe-acrobat.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/why-hewlett-packard-enterprise-chose-adobe-sign-for-workday.html": {
+    "00-4": "marqueefaas",
+    "01-4": "spacer",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/adobe-sign-adds-powerful-capabilities-to-microsoft-teams.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/get-more-done-in-microsoft-with-adobe-acrobat.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/discover-6-essential-adobe-acrobat-tools.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/get-started-with-adobe-acrobat.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/future-of-digital-work-with-adobe-acrobat.html?ref=webinarhub": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/simple-automation-with-action-wizard.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/collaborate-securely-with-adobe-acrobat-and-microsoft.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/an-inside-look-how-we-use-adobe-acrobat.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/Adobe-Acrobat-Sign-101-Getting-Started.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/top-5-ways-to-work-with-pdf-using-acrobat.html?ref=webinarhub": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/maximize-your-pdf-roi-with-adobe-acrobat.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/3-acrobat-sign-integrations-that-speed-up-your-work-confirmation.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/5-ways-to-work-smarter-with-adobe-acrobat-confirmation.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/accelerate-your-contract-process-with-adobe-msft-confirmation.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/acrobat-use-cases-boosting-productivity-confirmation.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/adobe-acrobat-sign-seamless-e-signature-management-for-teams-across-your-organization-confirmation.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/adobe-acrobat-sign-top-5-tips-for-smarter-e-signature-workflows-confirmation.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/adobe-acrobat-skill-builder-get-started-with-acrobat-dc-confirmation.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/adobe-document-workflows-to-grow-and-energize-your-business-confirmation.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/adobe-e-signatures-with-microsoft-teams-confirmation.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/adobe-integration-with-microsoft-and-salesforce-confirmation.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/adobe-security-in-the-cloud-confirmation.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/adobe-sign-and-dynamics-confirmation.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/adobe-sign-automation-with-microsoft-powerautomate-confirmation.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/adobe-sign-digital-signature-solution-confirmation.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/adobe-sign-get-started-with-workflow-designer-confirmation.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/adobe-sign-helps-you-get-more-done-in-microsoft-teams-confirmation.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/adobe-sign-how-to-prep-your-documents-for-signature-confirmation.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/adobe-sign-in-digital-signatures-solutions-confirmation.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/adobe-sign-sharepoint-integration-confirmation.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/adobe-sign-skill-builder-in-microsoft-teams-confirmation.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/adobe-sign-skill-builder-mega-sign-and-web-forms-confirmation.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/adobe-sign-skill-builder-users-in-multiple-groups-confirmation.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/adobe-sign-skill-builder-what-s-new-in-adobe-sign-confirmation.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/adobe-sign-use-case-showcase-featuring-volvo-confirmation.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/adobe-sign-use-case-showcase-sales-confirmation.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/adobe-sign-webforms-and-microsoft-sharepoint-confirmation.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/adobe-sign-with-microsoft-office365-confirmation.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/asurion-extends-digital-transformation-with-adobe-sign-and-workday-confirmation.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/back-to-basics-adobe-acrobat-microsoft-integrations-confirmation.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/close-deals-virtually-with-adobe-sign-and-microsoft-dynamics-confirmation.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/cloud-signatures-change-contracts-confirmation.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/creating-reusable-document-templates-with-adobe-sign-confirmation.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/demystifying-e-signatures-confirmation.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/document-automation-basics-with-adobe-and-microsoft-power-platform-confirmation.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/document-automation-made-easy-with-adobe-acrobat-sign-confirmation.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/driving-roi-with-adobe-sign-confirmation.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/e-signature-basics-with-adobe-acrobat-sign-confirmation.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/elevate-your-e-signatures-3tips-for-smarter-workflows-with-adobe-acrobat-sign-solutions-confirmation.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/eliminate-sales-process-friction-confirmation.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/fresh-ways-for-faster-e-signature-workflows-with-adobe-acrobat-sign-confirmation.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/from-echosign-to-adobe-sign-confirmation.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/get-the-most-out-of-your-microsoft-apps-with-adobe-integrations-confirmation.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/going-paperless-with-e-sign-and-digital-document-processes-confirmation.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/going-paperless-with-wipro-and-adobe-sign-confirmation.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/hr-workflows-with-adobe-and-servicenow-confirmation.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/impact-of-digital-workflows-in-new-hybrid-workplace-confirmation.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/introduction-to-adobe-sign-and-adobe-experience-manager-forms-confirmation.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/keep-business-moving-with-adobe-sign-office_365-sharepoint-confirmation.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/key-acrobat-workflows-that-keep-every-department-moving-confirmation.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/microsoft-teams-with-acrobat-and-adobe-sign-confirmation.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/sign-transform-document-workflows-confirmation.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/simplify-your-document-workflows-manage-pdfs-from-anywhere-with-adobe-acrobat-pro-confirmation.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/telework-for-federal-government-confirmation.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/top-5-pdf-tips-and-tricks-with-adobe-acrobat-confirmation.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/top-5-PDF-tips-and-tricks-with-adobe-acrobat-confirmation.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/top-ways-to-move-your-business-faster-confirmation.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/transformative-document-workflows-and-the-modern-power-of-pdfs-confirmation.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/transforming-document-and-signature-experiences-confirmation.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/unleash-the-power-of-adobe-acrobat-across-your-organization-confirmation.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/unlocking-efficiency-with-adobe-acrobat-confirmation.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/why-hewlett-packard-enterprise-chose-adobe-sign-for-workday-confirmation.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/adobe-sign-adds-powerful-capabilities-to-microsoft-teams-confirm.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/get-more-done-in-microsoft-with-adobe-acrobat-confirmation.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/discover-6-essential-adobe-acrobat-tools-confirmation.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/get-started-with-adobe-acrobat-confirmation.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/future-of-digital-work-with-adobe-acrobat-confirmation.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/simple-automation-with-action-wizard-confirmation.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/collaborate-securely-with-adobe-acrobat-and-microsoft-confirmation.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/Adobe-Acrobat-Sign-101-Getting-Started-Confirmation.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/an-inside-look-how-we-use-adobe-acrobat-confirmation.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/top-5-ways-to-work-with-pdf-using-acrobat-confirmation.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  },
+  "https://www.adobe.com/documentcloud/webinars/maximize-your-pdf-roi-with-adobe-acrobat-confirmation.html": {
+    "00-4": "marqueefaas",
+    "01-4": "aside",
+    "02-4": "textwithform",
+    "03-4": "spacer"
+  }
+}

@@ -1,7 +1,8 @@
 const BASEURL = 'https://www.adobe.com';
 
 const createBreadcrumbsBlock = (document)=> {
-  const main = document.querySelector('main');
+  const main = document.querySelector('.aem-Grid');
+  console.log(main);
   const breadcrumbs = document.querySelector('.feds-breadcrumbs-items');
 
   if(!breadcrumbs) {

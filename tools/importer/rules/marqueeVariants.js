@@ -219,9 +219,13 @@ export default function createMarqueeVariantsBlocks(block, document, variation) 
     contentRow.push(content, [image, bgVideo]);
   } else if (variation === 'faas') {
     tableName += '(small)';
-    bgRow.push(bgImage);
+    bgRow.push(bgColor, bgColor, bgImage ?? '');
     const content = document.querySelector('h1');
-    contentRow.push(image, content);
+    if (!bgImage && image) {
+      contentRow.push(content, image);
+    } else {
+      contentRow.push(content);
+    }
   }else {
     const contentWrapper = block.querySelector('.position');
     bgRow.push(mobileImage, tabletImage, bgImage);
